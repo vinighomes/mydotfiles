@@ -1,0 +1,11 @@
+# Keyboard Layout
+
+setxkbmap br &
+
+# Wallpaper
+
+nitrogen --restore &
+
+# Compositor
+
+picom -b &

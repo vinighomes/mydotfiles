@@ -1,0 +1,105 @@
+Config { font =         "xft:Ubuntu Bold 12"
+   , additionalFonts = [ "Mononoki 11"
+                           , "Font Awesome 6 Free Solid 12"
+                           , "Font Awesome 6 Brands 12"
+                           ]
+
+   , bgColor =      "black"
+   , fgColor =      "#1919e6"
+   , border =       BottomB
+   , position =     Top
+   , borderColor =  "black"
+   -- layout
+   , sepChar =  "%"   -- delineator between plugin names and straight text
+   , alignSep = "}{"  -- separator between left-right alignment
+	   , template = "<action=`~/.local/bin/archmenu`><icon=arch-haskell-20x20.xpm/></action>%StdinReader% }{<fc=#00f6f9>%multicpu% %coretemp% /</fc> <box type=Bottom width=1 color=#af14ff><fc=#af14ff><action=`terminator -e htop`>%memory%/ </action></fc></box><fc=#ef125c>%disku%</fc><fc=#ff0000> /</fc><box type=Bottom width =1 ><action=`terminator -e nmtui`> %dynnetwork% </action></box>(%battery%)%SBBU% / <box type=Bottom width=1 color=#5d5cff><fc=#5d5cff><action=`volume up` button=4><action=`volume down` button=5><action=`volume mute` button=1>%volume%</action></action></action></fc></box><fc=#ff0000> [</fc>%kbd%<fc=#ff0000>]</fc> %date% / <box type=Bottom width=1 color=blue><fc=#ff0000><action=`~/.local/bin/powermenu`>%botao%</action></fc></box> "
+
+   -- general behavior
+   , lowerOnStart =     True    -- send to bottom of window stack on start
+   , hideOnStart =      False   -- start with window unmapped (hidden)
+   , allDesktops =      True    -- show on all desktops
+   , overrideRedirect = True    -- set the Override Redirect flag (Xlib)
+   , pickBroadest =     False   -- choose widest display (multi-monitor)
+   , persistent =       True    -- enable/disable hiding (True = disabled)
+   , iconRoot = ".xmonad/xpm/"  -- default: "."
+   , commands = 
+
+        -- weather monitor
+		[ Run Weather "SBBU" [ "--template", "<skyCondition> / <fc=#4682B4><tempC></fc>°C"
+                            ] 36000
+	--StdinReader
+	, Run StdinReader        
+
+        -- network activity monitor (dynamic interface resolution)
+        , Run DynNetwork     [ "--template" , "<fc=#00ff00></fc> <tx>kB/s <fc=#ff0000> </fc><rx>kB/s"
+                             , "--Low"      , "1000"       -- units: B/s
+                             , "--High"     , "5000"       -- units: B/s
+                             , "--low"      , "#00ff00"
+                             , "--normal"   , "darkorange"
+                             , "--high"     , "#ff0000"
+                             ] 10
+
+        -- cpu activity monitor
+	, Run MultiCpu       [ "--template" , "<fc=#00f6f9></fc> <total0>%"
+                             , "--Low"      , "50"         -- units: %
+                             , "--High"     , "80"         -- units: %
+                             , "--low"      , "#00ff00"
+                             , "--normal"   , "darkorange"
+                             , "--high"     , "#ff0000"
+                             ] 10
+
+        -- cpu core temperature monitor
+        , Run CoreTemp       [ "--template" , "<core0>°C"
+                             , "--Low"      , "70"        -- units: °C
+                             , "--High"     , "80"        -- units: °C
+                             , "--low"      , "#00ff00"
+                             , "--normal"   , "darkorange"
+                             , "--high"     , "#ff0000"
+                             ] 50
+                          
+        -- memory usage monitor
+        , Run Memory         [ "--template" ,"Ram: <usedratio>%"
+                             , "--Low"      , "60"        -- units: %
+                             , "--High"     , "80"        -- units: %
+                             , "--low"      , "#00ff00"
+                             , "--normal"   , "darkorange"
+                             , "--high"     , "#ff0000"
+                             ] 10
+
+        -- battery monitor
+        , Run Battery        [ "--template" , "<acstatus>"
+                             , "--Low"      , "25"        -- units: %
+                             , "--High"     , "50"        -- units: %
+                             , "--low"      , "#ff0000"
+                             , "--normal"   , "darkorange"
+                             , "--high"     , "#00ff00"
+
+                             , "--" -- battery specific options
+                                       -- discharging status
+                                       , "-o"	, "<fc=#ff0000><left>%</fc>"
+                                       -- AC "on" status
+                                       , "-O"	, "<fc=#ff0000></fc>"
+                                       -- charged status
+                                       , "-i"	, "<fc=#00ff00></fc>"
+                             ] 50
+        
+	
+	-- time and date indicator 
+        --   (%F = y-m-d date, %a = day of week, %T = h:m:s time)
+			, Run Date           "<fc=#8d70ff> %a %d/%m/%Y</fc> / <fc=#ffffff> %T</fc>" "date" 10
+
+	-- icons
+	, Run Com "echo" ["<fn=2>\xf011</fn>"] "botao" 3600
+	-- Disk space free
+	, Run DiskU [("/", " <free>")] [] 60
+	--Volume 
+	, Run Com ".local/bin/volume" [] "volume" 1
+	
+	-- keyboard layout indicator
+        , Run Kbd            [ ("us(dvorak)" , "<fc=#e500e3>DV</fc>")
+                             , ("us"         , "<fc=#e500e3>US</fc>")
+                             ]
+
+
+        ]
+   }
