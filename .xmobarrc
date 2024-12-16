@@ -1,19 +1,17 @@
-Config { font =         "xft:Ubuntu Bold 12"
-   , additionalFonts = [ "Mononoki 11"
-                           , "Font Awesome 6 Free Solid 12"
-                           , "Font Awesome 6 Brands 12"
+	Config { font =     "Font JetBrains Mono Bold 11"
+   , additionalFonts = [    "Font Awesome 6 Free Solid 12"
+                           , "Font Awesome 6 Brands 11"
+                           , "Font JetBrainsMono Nerd Font 14"
+			   , "Noto Fonts Emoji 14"
                            ]
-
-   , bgColor =      "black"
-   , fgColor =      "#1919e6"
+   , bgColor =     "#00002a"
+   , fgColor =     "#5d5cff"
    , border =       BottomB
    , position =     Top
    , borderColor =  "black"
    -- layout
    , sepChar =  "%"   -- delineator between plugin names and straight text
    , alignSep = "}{"  -- separator between left-right alignment
-	   , template = "<action=`~/.local/bin/archmenu`><icon=arch-haskell-20x20.xpm/></action>%StdinReader% }{%multicpu% %coretemp% / <box type=Bottom width=1 color=#af14ff><action=`terminator -e bashtop`>%memory%/ </action></box>%disku% /<box type=Bottom width =1 ><action=`terminator -e nmtui`> %dynnetwork% </action></box>(%battery%)%SBBU% / <box type=Bottom width=1 color=#5d5cff><fc=#5d5cff><action=`volume up` button=4><action=`volume down` button=5><action=`volume mute` button=1>%volume%</action></action></action></fc></box><fc=#ff0000> [</fc>%kbd%<fc=#ff0000>]</fc> %date% / <box type=Bottom width=1 color=blue><fc=#ff0000><action=`~/.local/bin/powermenu`>%botao%</action></fc></box> "
-
    -- general behavior
    , lowerOnStart =     True    -- send to bottom of window stack on start
    , hideOnStart =      False   -- start with window unmapped (hidden)
@@ -23,45 +21,48 @@ Config { font =         "xft:Ubuntu Bold 12"
    , persistent =       True    -- enable/disable hiding (True = disabled)
    , iconRoot = ".xmonad/xpm/"  -- default: "."
    , commands = 
-
         -- weather monitor
-		[ Run Weather "SBBU" [ "--template", "<skyCondition> / <fc=#4682B4><tempC></fc>°C"
-                            ] 36000
-	--StdinReader
-	, Run StdinReader        
-
+	[ Run Weather "SBBU" [ "--template", "<skyCondition> <fn=1></fn> <fc=#4682B4><tempC></fc>°C"
+			     , "-L", "15"
+                      	     , "-H", "35"
+                             , "--low"   , "lightblue"
+                             , "--normal", "#82aaff"
+                             , "--high"  , "red"
+                             ] 36000
+	    --UnsafeStdinReader
+	    , Run UnsafeStdinReader        
         -- network activity monitor (dynamic interface resolution)
-        , Run DynNetwork     [ "--template" , "<fc=#00ff00></fc> <tx>kB/s <fc=#ff0000> </fc><rx>kB/s"
+        , Run DynNetwork     [ "--template" , "<fc=#00ff00></fc> <tx>kB/s <fc=#ff0000></fc> <rx>kB/s"
                              , "--Low"      , "1000"       -- units: B/s
                              , "--High"     , "5000"       -- units: B/s
-                             , "--low"      , "#00ff00"
+                             , "--low"      , "#00d600"
                              , "--normal"   , "darkorange"
-                             , "--high"     , "#ff0000"
+                             , "--high"     , "#cc241d"
                              ] 10
 
         -- cpu activity monitor
-	, Run MultiCpu       [ "--template" , " <total0>%"
+	    , Run MultiCpu       [ "--template" , "<fn=1></fn> <total0>%"
                              , "--Low"      , "50"         -- units: %
                              , "--High"     , "80"         -- units: %
-                             , "--low"      , "#00ff00"
+                             , "--low"      , "#00d600"
                              , "--normal"   , "darkorange"
                              , "--high"     , "#ff0000"
                              ] 10
-
-        -- cpu core temperature monitor
+        
+	    -- cpu core temperature monitor
         , Run CoreTemp       [ "--template" , "<core0>°C"
                              , "--Low"      , "70"        -- units: °C
                              , "--High"     , "80"        -- units: °C
-                             , "--low"      , "#00ff00"
+                             , "--low"      , "#00d600"
                              , "--normal"   , "darkorange"
                              , "--high"     , "#ff0000"
                              ] 10
                           
         -- memory usage monitor
-        , Run Memory         [ "--template" ,"Ram: <usedratio>%"
+        , Run Memory         [ "--template" ,"<fn=1></fn> <usedratio>%"
                              , "--Low"      , "60"        -- units: %
                              , "--High"     , "80"        -- units: %
-                             , "--low"      , "#00ff00"
+                             , "--low"      , "#00d600"
                              , "--normal"   , "darkorange"
                              , "--high"     , "#ff0000"
                              ] 10
@@ -69,37 +70,46 @@ Config { font =         "xft:Ubuntu Bold 12"
         -- battery monitor
         , Run Battery        [ "--template" , "<acstatus>"
                              , "--Low"      , "25"        -- units: %
-                             , "--High"     , "50"        -- units: %
+                             , "--High"     , "60"        -- units: %
                              , "--low"      , "#ff0000"
                              , "--normal"   , "darkorange"
-                             , "--high"     , "#00ff00"
+                             , "--high"     , "#00d600"
 
                              , "--" -- battery specific options
                                        -- discharging status
-                                       , "-o"	, "<fc=#ff0000><left>%</fc>"
+                                       , "-o"	, "<fn=1><fc=#ff0000></fc></fn><fc=#ff0000><left>%</fc>"
                                        -- AC "on" status
-                                       , "-O"	, "<fc=#ff0000></fc>"
+                                       , "-O"	, "<fn=1><fc=#ff0000></fc></fn><fc=#ff0000><left>%</fc>"
                                        -- charged status
-                                       , "-i"	, "<fc=#00ff00></fc>"
+                                       , "-i"	, "<fn=1><fc=#00d600></fc></fn>"
                              ] 50
-        
-	
-	-- time and date indicator 
+
+	    -- time and date indicator 
         --   (%F = y-m-d date, %a = day of week, %T = h:m:s time)
-			, Run Date           "<fc=#5d5cff> %a %d/%m/%Y</fc> / <fc=#5d5cff> %T</fc>" "date" 10
-
-	-- icons
-	, Run Com "echo" ["<fn=2>\xf011</fn>"] "botao" 3600
-	-- Disk space free
-	, Run DiskU [("/", " <free>")] [] 60
-	--Volume 
-	, Run Com ".local/bin/volume" [] "volume" 1
-	
-	-- keyboard layout indicator
-        , Run Kbd            [ ("us(dvorak)" , "<fc=#e500e3>DV</fc>")
-                             , ("us"         , "<fc=#e500e3>US</fc>")
+        , Run Date "<box type=Bottom width=1 color=red><fc=#cc241d>%a</fc></box> <box type=Bottom width=1 color=blue>%d/%m/%Y</box> / <box type=Bottom width=2 color=blue><fc=#5d5cff><fn=1></fn></fc></box> <box type=Bottom width=1 color=blue>%H:%M:%S</box>" "date" 10
+        
+	    -- MPD
+        , Run MPD ["-t","<artist><fc=#ff00ff> - [</fc><title><fc=#ff00ff>]</fc>","--", "-P","", "-Z", "|", "-S", ""] 10
+ 
+ 	    -- icons
+  	    -- PowerBottom
+	    , Run Com "echo" ["<fn=1>\xf011</fn>"] "botao" 3600
+  
+  	    -- Disk space free
+  	    , Run DiskU [("/", "<fn=1> </fn><usedp>%")] [] 20
+  
+  	    -- Music
+  	    , Run Com "echo" ["<fn=1><fc=#cc241d>\xf001</fc></fn>"] "music" 3600
+  
+  	    --Volume 
+  	    , Run Com ".local/bin/volume" [] "volume" 1
+  
+  	    --Microphone
+ 	    , Run Com ".local/bin/mic" []"mic" 1
+  
+  	    -- keyboard layout indicator
+  	    , Run Kbd  [("br", "<fc=#a1cd5e><fn=4>•🇧🇷•</fn></fc>")]
                              ]
-
-
         ]
+	    , template = "<action=`~/.local/bin/launcher.sh`><icon=haskell_20.xpm/></action><fc=#5d5cff>  | %UnsafeStdinReader%</fc>} {%music%  <box type=Bottom width=2 color=#ff00ff><action=`terminator -e ncmpcpp` button=1><action=`~/.local/bin/mpd.sh` button=3><fc=#cc241d>/%mpd%</fc></action></action></box> <action=`terminator -e htop`>%multicpu% %coretemp%</action> / <action=`terminator -e bpytop`>%memory%/ </action><action=`terminator -e ncdu`>%disku%</action> /<box type=Bottom width=1 color=cyan><action=`terminator -e nmtui`> %dynnetwork% </action></box> <box type=Bottom width=1 color=#00ff00>(%battery%)</box> <box type=Bottom width=2 color=blue><action=`terminator -e ~/.local/bin/weather`>%SBBU%</action></box> / <box type=Bottom width=1 color=red><action=`~/.local/bin/volume mute` button=1><action=`~/.local/bin/volume up` button=4><action=`~/.local/bin/volume down` button=5><action=`pavucontrol` button=3><fc=#5d5cff>%volume%</fc></action></action></action></action></box> / <box type=Bottom width=1 color=cyan><action=`~/.local/bin/mic mutep` button=1><action=`~/.local/bin/mic up` button=4><action=`~/.local/bin/mic down` button=5><action=`~/.local/bin/mic mute` button=3><fc=#5d5cff>%mic%</fc></action></action></action></action></box> <box type=Bottom width=2 color=#a1cd5e>%kbd%</box> <action=`terminator -e calcurse`>%date%</action> / <box type=Bottom width=2 color=#cc241d><fc=#ff0000><action=`~/.local/bin/powermenu`>%botao%</action></fc></box> "
    }

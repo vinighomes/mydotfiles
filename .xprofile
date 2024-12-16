@@ -2,6 +2,10 @@
 
 setxkbmap br &
 
+# Activate numlock
+
+numlockx on &
+
 # Wallpaper
 
 nitrogen --restore &
@@ -9,3 +13,7 @@ nitrogen --restore &
 # Compositor
 
 picom -b &
+
+# Music
+
+#mpd &
