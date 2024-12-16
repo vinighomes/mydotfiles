@@ -1,6 +1,0 @@
-# bloquear tela:
-dm-tool lock
-
-xft:Font Awesome 6 Free Solid:style=Solid:size=9
-
-scrot 'vinighomes-%d-%m-%Y-%s_screenshot_$wx$h.jpg' -e 'mv $f $$(xdg-user-dir PICTURES)/Screenshots'
