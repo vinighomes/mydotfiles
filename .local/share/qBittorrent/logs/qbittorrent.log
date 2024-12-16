@@ -1,92 +1,71 @@
-(N) 2024-03-22T21:41:41 - qBittorrent v4.6.3 iniciado
-(N) 2024-03-22T21:41:41 - Usando diretório das configurações: /home/vinicius/.config/qBittorrent
-(N) 2024-03-22T21:41:48 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:14648,[::]:14648"
-(I) 2024-03-22T21:41:49 - ID do par: "-qB4630-"
-(I) 2024-03-22T21:41:49 - Agente do Usuário HTTP: "qBittorrent/4.6.3"
-(I) 2024-03-22T21:41:49 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
-(I) 2024-03-22T21:41:49 - Suporte a Descoberta de Pares locais: LIGADO
-(I) 2024-03-22T21:41:49 - Suporte para Troca de Pares (PeX): LIGADO
-(I) 2024-03-22T21:41:49 - Modo anônimo: DESLIGADO
-(I) 2024-03-22T21:41:49 - Suporte a criptografia: LIGADO
-(I) 2024-03-22T21:41:49 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/14648"
-(I) 2024-03-22T21:41:49 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UTP/14648"
-(I) 2024-03-22T21:41:49 - Êxito ao escutar no IP. IP: "192.168.0.102". Porta: "TCP/14648"
-(I) 2024-03-22T21:41:49 - Êxito ao escutar no IP. IP: "192.168.0.102". Porta: "UTP/14648"
-(I) 2024-03-22T21:41:49 - Êxito ao escutar no IP. IP: "::1". Porta: "TCP/14648"
-(I) 2024-03-22T21:41:49 - Êxito ao escutar no IP. IP: "::1". Porta: "UTP/14648"
-(I) 2024-03-22T21:41:49 - Êxito ao escutar no IP. IP: "fe80::5c50:97bb:7402:3801%wlan0". Porta: "TCP/14648"
-(I) 2024-03-22T21:41:49 - Êxito ao escutar no IP. IP: "fe80::5c50:97bb:7402:3801%wlan0". Porta: "UTP/14648"
-(I) 2024-03-22T21:41:49 - Suporte UPnP/NAT-PMP: LIGADO
-(W) 2024-03-22T21:41:49 - Não pôde carregar o banco de dados da geo-localização dos IPs. Motivo: Não existe o arquivo ou pasta
-(I) 2024-03-22T21:41:49 - Êxito ao mapear portas UPnP/NAT-PMP. Mensagem: "successfully mapped port using NAT-PMP. local: 192.168.0.102 external port: TCP/14648"
-(I) 2024-03-22T21:41:49 - Êxito ao mapear portas UPnP/NAT-PMP. Mensagem: "successfully mapped port using NAT-PMP. local: 192.168.0.102 external port: UDP/14648"
-(I) 2024-03-22T21:41:49 - Êxito ao mapear portas UPnP/NAT-PMP. Mensagem: "successfully mapped port using UPnP. local: 192.168.0.102 external port: TCP/14648"
-(I) 2024-03-22T21:41:49 - Êxito ao mapear portas UPnP/NAT-PMP. Mensagem: "successfully mapped port using UPnP. local: 192.168.0.102 external port: UDP/14648"
-(I) 2024-03-22T21:41:49 - Detectado IP externo. IP: "187.109.144.45"
-(I) 2024-03-22T21:41:50 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Thu Feb 29 22:21:18 2024.
-(I) 2024-03-22T21:41:50 - Banco de dados da geo-localização dos IPs atualizado com sucesso.
-(N) 2024-03-22T21:42:18 - Opções salvas.
-(N) 2024-03-22T21:43:44 - Opções salvas.
-(N) 2024-03-22T21:44:08 - Finalização do qBittorrent iniciada
-(N) 2024-03-22T21:44:08 - O qBittorrent agora está pronto para ser fechado
-(N) 2024-03-22T21:44:13 - qBittorrent v4.6.3 iniciado
-(N) 2024-03-22T21:44:13 - Usando diretório das configurações: /home/vinicius/.config/qBittorrent
-(N) 2024-03-22T21:44:13 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:14648,[::]:14648"
-(I) 2024-03-22T21:44:13 - ID do par: "-qB4630-"
-(I) 2024-03-22T21:44:13 - Agente do Usuário HTTP: "qBittorrent/4.6.3"
-(I) 2024-03-22T21:44:13 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
-(I) 2024-03-22T21:44:13 - Suporte a Descoberta de Pares locais: LIGADO
-(I) 2024-03-22T21:44:13 - Suporte para Troca de Pares (PeX): LIGADO
-(I) 2024-03-22T21:44:13 - Modo anônimo: DESLIGADO
-(I) 2024-03-22T21:44:13 - Suporte a criptografia: LIGADO
-(I) 2024-03-22T21:44:13 - Suporte UPnP/NAT-PMP: LIGADO
-(I) 2024-03-22T21:44:13 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/14648"
-(I) 2024-03-22T21:44:13 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UTP/14648"
-(I) 2024-03-22T21:44:13 - Êxito ao escutar no IP. IP: "192.168.0.102". Porta: "TCP/14648"
-(I) 2024-03-22T21:44:13 - Êxito ao escutar no IP. IP: "192.168.0.102". Porta: "UTP/14648"
-(I) 2024-03-22T21:44:13 - Êxito ao escutar no IP. IP: "::1". Porta: "TCP/14648"
-(I) 2024-03-22T21:44:13 - Êxito ao escutar no IP. IP: "::1". Porta: "UTP/14648"
-(I) 2024-03-22T21:44:13 - Êxito ao escutar no IP. IP: "fe80::5c50:97bb:7402:3801%wlan0". Porta: "TCP/14648"
-(I) 2024-03-22T21:44:13 - Êxito ao escutar no IP. IP: "fe80::5c50:97bb:7402:3801%wlan0". Porta: "UTP/14648"
-(I) 2024-03-22T21:44:13 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Thu Feb 29 22:21:18 2024.
-(I) 2024-03-22T21:44:13 - Êxito ao mapear portas UPnP/NAT-PMP. Mensagem: "successfully mapped port using NAT-PMP. local: 192.168.0.102 external port: TCP/14648"
-(I) 2024-03-22T21:44:14 - Êxito ao mapear portas UPnP/NAT-PMP. Mensagem: "successfully mapped port using NAT-PMP. local: 192.168.0.102 external port: UDP/14648"
-(I) 2024-03-22T21:44:14 - Êxito ao mapear portas UPnP/NAT-PMP. Mensagem: "successfully mapped port using UPnP. local: 192.168.0.102 external port: TCP/14648"
-(I) 2024-03-22T21:44:14 - Êxito ao mapear portas UPnP/NAT-PMP. Mensagem: "successfully mapped port using UPnP. local: 192.168.0.102 external port: UDP/14648"
-(I) 2024-03-22T21:44:14 - Detectado IP externo. IP: "187.109.144.45"
-(N) 2024-03-22T21:47:03 - Finalização do qBittorrent iniciada
-(N) 2024-03-22T21:47:04 - O qBittorrent agora está pronto para ser fechado
-(N) 2024-03-22T21:47:07 - qBittorrent v4.6.3 iniciado
-(N) 2024-03-22T21:47:07 - Usando diretório das configurações: /home/vinicius/.config/qBittorrent
-(N) 2024-03-22T21:47:07 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:14648,[::]:14648"
-(I) 2024-03-22T21:47:07 - ID do par: "-qB4630-"
-(I) 2024-03-22T21:47:07 - Agente do Usuário HTTP: "qBittorrent/4.6.3"
-(I) 2024-03-22T21:47:07 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
-(I) 2024-03-22T21:47:07 - Suporte a Descoberta de Pares locais: LIGADO
-(I) 2024-03-22T21:47:07 - Suporte para Troca de Pares (PeX): LIGADO
-(I) 2024-03-22T21:47:07 - Modo anônimo: DESLIGADO
-(I) 2024-03-22T21:47:07 - Suporte a criptografia: LIGADO
-(I) 2024-03-22T21:47:07 - Suporte UPnP/NAT-PMP: LIGADO
-(I) 2024-03-22T21:47:07 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/14648"
-(I) 2024-03-22T21:47:07 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UTP/14648"
-(I) 2024-03-22T21:47:07 - Êxito ao escutar no IP. IP: "192.168.0.102". Porta: "TCP/14648"
-(I) 2024-03-22T21:47:07 - Êxito ao escutar no IP. IP: "192.168.0.102". Porta: "UTP/14648"
-(I) 2024-03-22T21:47:07 - Êxito ao escutar no IP. IP: "::1". Porta: "TCP/14648"
-(I) 2024-03-22T21:47:07 - Êxito ao escutar no IP. IP: "::1". Porta: "UTP/14648"
-(I) 2024-03-22T21:47:07 - Êxito ao escutar no IP. IP: "fe80::5c50:97bb:7402:3801%wlan0". Porta: "TCP/14648"
-(I) 2024-03-22T21:47:07 - Êxito ao escutar no IP. IP: "fe80::5c50:97bb:7402:3801%wlan0". Porta: "UTP/14648"
-(I) 2024-03-22T21:47:07 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Thu Feb 29 22:21:18 2024.
-(I) 2024-03-22T21:47:07 - Êxito ao mapear portas UPnP/NAT-PMP. Mensagem: "successfully mapped port using NAT-PMP. local: 192.168.0.102 external port: TCP/14648"
-(I) 2024-03-22T21:47:07 - Êxito ao mapear portas UPnP/NAT-PMP. Mensagem: "successfully mapped port using NAT-PMP. local: 192.168.0.102 external port: UDP/14648"
-(I) 2024-03-22T21:47:07 - Êxito ao mapear portas UPnP/NAT-PMP. Mensagem: "successfully mapped port using UPnP. local: 192.168.0.102 external port: TCP/14648"
-(I) 2024-03-22T21:47:07 - Êxito ao mapear portas UPnP/NAT-PMP. Mensagem: "successfully mapped port using UPnP. local: 192.168.0.102 external port: UDP/14648"
-(I) 2024-03-22T21:47:08 - Detectado IP externo. IP: "187.109.144.45"
-(N) 2024-03-22T21:56:12 - qBittorrent v4.6.3 iniciado
-(N) 2024-03-22T21:56:12 - Usando diretório das configurações: /home/vinicius/.config/qBittorrent
-(N) 2024-03-22T21:56:12 - Finalização do qBittorrent iniciada
-(N) 2024-03-22T21:56:12 - O qBittorrent agora está pronto para ser fechado
-(N) 2024-03-22T21:57:05 - Novo torrent adicionado. Torrent: "Invasores.Nenhum.Sistema.Esta.a.Salvo.2015.1080p.Dual-WOLVERDONFILMES.COM"
-(N) 2024-03-22T22:26:40 - Download do torrent concluído. Torrent: "Invasores.Nenhum.Sistema.Esta.a.Salvo.2015.1080p.Dual-WOLVERDONFILMES.COM"
-(N) 2024-03-22T22:26:54 - Torrent removido. Torrent: "Invasores.Nenhum.Sistema.Esta.a.Salvo.2015.1080p.Dual-WOLVERDONFILMES.COM"
-(N) 2024-03-22T22:26:56 - Finalização do qBittorrent iniciada
-(N) 2024-03-22T22:26:56 - O qBittorrent agora está pronto para ser fechado
+(N) 2024-12-15T20:33:07 - qBittorrent v5.0.2 started. Process ID: 589126
+(N) 2024-12-15T20:33:07 - Using config directory: /home/darth06/.config/qBittorrent
+(N) 2024-12-15T20:33:09 - Trying to listen on the following list of IP addresses: "0.0.0.0:47000,[::]:47000"
+(I) 2024-12-15T20:33:09 - Peer ID: "-qB5020-"
+(I) 2024-12-15T20:33:09 - HTTP User-Agent: "qBittorrent/5.0.2"
+(I) 2024-12-15T20:33:09 - Distributed Hash Table (DHT) support: ON
+(I) 2024-12-15T20:33:09 - Local Peer Discovery support: ON
+(I) 2024-12-15T20:33:09 - Peer Exchange (PeX) support: ON
+(I) 2024-12-15T20:33:09 - Anonymous mode: OFF
+(I) 2024-12-15T20:33:09 - Encryption support: ON
+(I) 2024-12-15T20:33:09 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/47000"
+(I) 2024-12-15T20:33:09 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/47000"
+(I) 2024-12-15T20:33:09 - Successfully listening on IP. IP: "192.168.0.7". Port: "TCP/47000"
+(I) 2024-12-15T20:33:09 - Successfully listening on IP. IP: "192.168.0.7". Port: "UTP/47000"
+(I) 2024-12-15T20:33:09 - Successfully listening on IP. IP: "::1". Port: "TCP/47000"
+(I) 2024-12-15T20:33:09 - Successfully listening on IP. IP: "::1". Port: "UTP/47000"
+(I) 2024-12-15T20:33:09 - Successfully listening on IP. IP: "fe80::7cc2:4382:5144:7b11%enp44s0". Port: "TCP/47000"
+(I) 2024-12-15T20:33:09 - Successfully listening on IP. IP: "fe80::7cc2:4382:5144:7b11%enp44s0". Port: "UTP/47000"
+(I) 2024-12-15T20:33:09 - UPnP/NAT-PMP support: ON
+(W) 2024-12-15T20:33:09 - Couldn't load IP geolocation database. Reason: No such file or directory
+(N) 2024-12-15T20:33:09 - Power management found suitable D-Bus interface. Interface: org.freedesktop.login1.Manager
+(I) 2024-12-15T20:33:09 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using NAT-PMP. local: 192.168.0.7 external port: TCP/47000"
+(I) 2024-12-15T20:33:09 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using NAT-PMP. local: 192.168.0.7 external port: UDP/47000"
+(I) 2024-12-15T20:33:09 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using UPnP. local: 192.168.0.7 external port: TCP/47000"
+(I) 2024-12-15T20:33:09 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using UPnP. local: 192.168.0.7 external port: UDP/47000"
+(I) 2024-12-15T20:33:09 - Detected external IP. IP: "187.109.150.43"
+(I) 2024-12-15T20:33:09 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sat Nov 30 23:19:17 2024.
+(I) 2024-12-15T20:33:09 - Successfully updated IP geolocation database.
+(N) 2024-12-15T20:33:23 - Options saved.
+(N) 2024-12-15T20:33:25 - qBittorrent termination initiated
+(N) 2024-12-15T20:33:25 - Saving resume data completed.
+(N) 2024-12-15T20:33:25 - BitTorrent session successfully finished.
+(N) 2024-12-15T20:33:25 - qBittorrent is now ready to exit
+(N) 2024-12-15T20:33:28 - qBittorrent v5.0.2 started. Process ID: 591172
+(N) 2024-12-15T20:33:28 - Using config directory: /home/darth06/.config/qBittorrent
+(N) 2024-12-15T20:33:28 - Trying to listen on the following list of IP addresses: "0.0.0.0:47000,[::]:47000"
+(I) 2024-12-15T20:33:28 - Peer ID: "-qB5020-"
+(I) 2024-12-15T20:33:28 - HTTP User-Agent: "qBittorrent/5.0.2"
+(I) 2024-12-15T20:33:28 - Distributed Hash Table (DHT) support: ON
+(I) 2024-12-15T20:33:28 - Local Peer Discovery support: ON
+(I) 2024-12-15T20:33:28 - Peer Exchange (PeX) support: ON
+(I) 2024-12-15T20:33:28 - Anonymous mode: OFF
+(I) 2024-12-15T20:33:28 - Encryption support: ON
+(I) 2024-12-15T20:33:28 - UPnP/NAT-PMP support: ON
+(I) 2024-12-15T20:33:28 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/47000"
+(I) 2024-12-15T20:33:28 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/47000"
+(I) 2024-12-15T20:33:28 - Successfully listening on IP. IP: "192.168.0.7". Port: "TCP/47000"
+(I) 2024-12-15T20:33:28 - Successfully listening on IP. IP: "192.168.0.7". Port: "UTP/47000"
+(I) 2024-12-15T20:33:28 - Successfully listening on IP. IP: "::1". Port: "TCP/47000"
+(I) 2024-12-15T20:33:28 - Successfully listening on IP. IP: "::1". Port: "UTP/47000"
+(I) 2024-12-15T20:33:28 - Successfully listening on IP. IP: "fe80::7cc2:4382:5144:7b11%enp44s0". Port: "TCP/47000"
+(I) 2024-12-15T20:33:28 - Successfully listening on IP. IP: "fe80::7cc2:4382:5144:7b11%enp44s0". Port: "UTP/47000"
+(I) 2024-12-15T20:33:28 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sat Nov 30 23:19:17 2024.
+(N) 2024-12-15T20:33:28 - Power management found suitable D-Bus interface. Interface: org.freedesktop.login1.Manager
+(I) 2024-12-15T20:33:28 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using NAT-PMP. local: 192.168.0.7 external port: TCP/47000"
+(I) 2024-12-15T20:33:28 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using NAT-PMP. local: 192.168.0.7 external port: UDP/47000"
+(I) 2024-12-15T20:33:28 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using UPnP. local: 192.168.0.7 external port: TCP/47000"
+(I) 2024-12-15T20:33:28 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using UPnP. local: 192.168.0.7 external port: UDP/47000"
+(I) 2024-12-15T20:33:28 - Detected external IP. IP: "187.109.150.43"
+(N) 2024-12-15T20:37:01 - qBittorrent v5.0.2 started. Process ID: 613697
+(N) 2024-12-15T20:37:01 - Using config directory: /home/darth06/.config/qBittorrent
+(N) 2024-12-15T20:37:01 - qBittorrent termination initiated
+(N) 2024-12-15T20:37:01 - qBittorrent is now ready to exit
+(N) 2024-12-15T20:37:05 - Added new torrent. Torrent: "Breaking Bad 2008 - 1ª Temporada Completa [1080p] WWW.BLUDV.COM"
+(N) 2024-12-15T20:46:16 - Torrent stopped. Torrent: "Breaking Bad 2008 - 1ª Temporada Completa [1080p] WWW.BLUDV.COM"
+(N) 2024-12-15T20:56:14 - Torrent removed. Torrent: "Breaking Bad 2008 - 1ª Temporada Completa [1080p] WWW.BLUDV.COM"
+(N) 2024-12-15T20:56:14 - Torrent content removed. Torrent: "Breaking Bad 2008 - 1ª Temporada Completa [1080p] WWW.BLUDV.COM"
+(N) 2024-12-15T20:56:15 - qBittorrent termination initiated
+(N) 2024-12-15T20:56:15 - Saving resume data completed.
+(N) 2024-12-15T20:56:15 - BitTorrent session successfully finished.
+(N) 2024-12-15T20:56:15 - qBittorrent is now ready to exit

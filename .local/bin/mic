@@ -1,0 +1,33 @@
+#!/bin/sh
+#icons
+MICMUTED="<fn=1><fc=#ff0000> </fc></fn>"
+MICUNMUTED="<fn=1><fc=#7fdbca></fc></fn> "
+#comands
+send_notification() {
+	mice=$(printf "%.0f\n" "$(pactl get-source-volume @DEFAULT_SOURCE@ | grep -Po '\d+(?=%)' | head -n 1)")
+	dunstify -a "Microphone" -u low -r 9994 -h int:value:"$mice" -i "volue" "Microphone" "Currently at $mice%" -t 1000
+}
+
+MICINFO="$(pactl get-source-volume @DEFAULT_SOURCE@ | grep -Po '\d+(?=%)' | head -n 1)"
+#actions
+case "$1" in 
+      up) pactl set-source-volume @DEFAULT_SOURCE@ +5%
+	  send_notification "$1"   
+	  ;;
+    down) pactl set-source-volume @DEFAULT_SOURCE@ -5%
+	  send_notification "$1"
+	  ;;
+    mute) pactl list short sources | awk '/input.*RUNNING/ {system("pactl set-source-mute " $1 " toggle")}'
+	  send_notification "$1"  
+	  ;;
+   mutep) pactl set-source-mute @DEFAULT_SOURCE@ toggle
+          send_notification "$1"
+	  ;;
+esac > /dev/null
+#print on screen info volume mic
+if [ "$MICINFO" -lt 5 ]; then
+  echo "${MICMUTED}${MICINFO}%"
+elif [ "$MICINFO" -ge 5 ]; then
+  echo "${MICUNMUTED}${MICINFO}%"
+fi
+

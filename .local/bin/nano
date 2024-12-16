@@ -1,0 +1,3 @@
+#!/bin/sh
+echo "Editor de texto Nutella detectado. Impossível continuar."
+

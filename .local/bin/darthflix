@@ -1,0 +1,13 @@
+#!/bin/sh
+
+case $1 in
+	up)     notify-send "DLNA Server Start With Sucess"
+		sudo minidlnad -f /home/$USER/.config/minidlna/minidlna.conf -P /home/$USER/.config/minidlna/minidlna.pid -R
+		;;
+	upv)	notify-send "DLNA Server Start With Sucess!"
+		sudo minidlnad -f /home/$USER/.config/minidlna/minidlna.conf -P /home/$USER/.config/minidlna/minidlna.pid -R -d
+		notify-send "Exit DLNA With Sucess!"
+		;;
+esac
+
+

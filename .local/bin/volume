@@ -1,47 +1,35 @@
 #!/bin/sh
 #Ícones
-VOLUMEUP="<fc=#ff0000></fc>"
-VOLUMEDOWN="<fc=#ff0000></fc>"
-VOLUMEMUTE="<fc=#ff0000>x</fc>"
+VOLUME="<fn=1><fc=#cc241d> </fc></fn>"
+VOLUMEMUTE="<fn=1><fc=#FF0000> </fc></fn>"
 
 #Ações 
+send_notification() {
+	volue=$(printf "%.0f\n" "$(pactl get-sink-volume @DEFAULT_SINK@ | grep -Po '\d+(?=%)' | head -n 1)")
+	dunstify -a "Volume" -u low -r 9994 -h int:value:"$volue" -i "volue" "Volume" "Currently at $volue%" -t 3750
+}
+
 #UP="pactl set-sink-volume @DEFAULT_SINK@ +10%"
 #DOWN="pactl set-sink-volume @DEFAULT_SINK@ -10%"
 #MUTE="pactl set-sink-mute @DEFAULT_SINK@ toggle"
-VOL="$(pamixer --get-volume)"
+VOL="$(pactl get-sink-volume @DEFAULT_SINK@ | grep -Po '\d+(?=%)' | head -n 1)"
 
 case "$1" in 
-      up) pactl set-sink-volume @DEFAULT_SINK@ +5%;;
-    down) pactl set-sink-volume @DEFAULT_SINK@ -5%;;
-    mute) pactl set-sink-mute @DEFAULT_SINK@ toggle;;
+      up) pactl set-sink-volume @DEFAULT_SINK@ +5%
+      	  send_notification "$1"
+	  ;;
+    down) pactl set-sink-volume @DEFAULT_SINK@ -5%
+	  send_notification "$1"  
+	  ;;
+    mute) pactl set-sink-mute @DEFAULT_SINK@ toggle
+	  send_notification "$1"
+	  ;;
 esac > /dev/null
 
 if    [ "$VOL" -eq 0 ]; then
   echo "${VOLUMEMUTE}${VOL}%"
-elif [ "$VOL" -eq 5 ]; then
-  echo "${VOLUMEDOWN}${VOL}%"
-elif [ "$VOL" -eq 10 ]; then
-  echo "${VOLUMEDOWN}${VOL}%"
-elif [ "$VOL" -eq 15 ]; then
-  echo "${VOLUMEDOWN}${VOL}%"
-elif [ "$VOL" -eq 20 ]; then
-  echo "${VOLUMEDOWN}${VOL}%"
-elif [ "$VOL" -eq 25 ]; then
-  echo "${VOLUMEDOWN}${VOL}%"
-elif [ "$VOL" -eq 30 ]; then
-  echo "${VOLUMEDOWN}${VOL}%"
-elif [ "$VOL" -eq 35 ]; then
-  echo "${VOLUMEDOWN}${VOL}%"
-elif [ "$VOL" -eq 40 ]; then
-  echo "${VOLUMEDOWN}${VOL}%"
-elif [ "$VOL" -eq 45 ]; then
-  echo "${VOLUMEDOWN}${VOL}%"
-elif [ "$VOL" -eq 50 ]; then
-  echo "${VOLUMEDOWN}${VOL}%"
-elif [ "$VOL" -eq 55 ]; then
-  echo "${VOLUMEDOWN}${VOL}%"
-elif [ "$VOL" -eq 60 ]; then
-  echo "${VOLUMEDOWN}${VOL}%"
-elif [ "$VOL" -ge 65 ]; then
-  echo "${VOLUMEUP}${VOL}%"
+elif [ "$VOL" -ge 1 ]; then
+  echo "${VOLUME}${VOL}%"
 fi
+
+

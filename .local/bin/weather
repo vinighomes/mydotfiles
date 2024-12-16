@@ -1,0 +1,14 @@
+#!/bin/sh
+curl wttr.in/bauru
+
+echo "Como está o tempo hoje?(b/r)"
+read time
+case $time in
+        b) res="Que bom!, tenha um ótimo dia!!<3"
+                ;;
+        r) res="Que pena :( , mas logo tudo vai ficar bem S2"
+                ;;
+esac
+
+echo "$res"
+
