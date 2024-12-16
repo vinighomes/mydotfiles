@@ -1,0 +1,11 @@
+--Avi Convert (PS2)
+--Low Quality
+ffmpeg -i sample.mp4 -c:v libxvid -b:v 1200k -s 720x480 output.avi
+
+--Medium Quality
+ffmpeg -i sample.mp4 -c:v libxvid -b:v 1500k -s 720x480 output.avi
+
+--High Quality
+ffmpeg -i sample.mp4 -c:v libxvid -b:v 2500k -s 720x480 output.avi
+
+https://www.youtube.com/watch?v=kXYiU_JCYtU&list=PL_Q15fKxrBb7wo5SRxHbhk6ZL6zMYh5tH
