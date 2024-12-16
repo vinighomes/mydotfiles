@@ -1,0 +1,25 @@
+[Colors]
+BackColor=1,22,39
+ConstantsButtonsColor=1,22,39
+ConstantsFontsColor=189,193,198
+ForeColor=189,193,198
+FunctionButtonsColor=1,22,39
+FunctionFontsColor=189,193,198
+HexButtonsColor=1,22,39
+HexFontsColor=189,193,198
+MemoryButtonsColor=1,22,39
+MemoryFontsColor=189,193,198
+NumberButtonsColor=1,22,39
+NumberFontsColor=189,193,198
+OperationButtonsColor=1,22,39
+OperationFontsColor=189,193,198
+StatButtonsColor=1,22,39
+StatFontsColor=189,193,198
+
+[Font]
+ButtonFont=Sans Serif,14,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+DisplayFont=Sans Serif,16,-1,5,700,0,0,0,0,0,0,0,0,0,0,1
+HistoryFont=Sans Serif,14,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+
+[KCalcMainWindow]
+ToolBarsMovable=Disabled

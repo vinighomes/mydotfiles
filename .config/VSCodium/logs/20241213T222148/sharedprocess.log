@@ -1,0 +1,12 @@
+2024-12-13 22:22:55.606 [info] Getting Manifest... sdras.night-owl
+2024-12-13 22:22:57.023 [info] Installing extension: sdras.night-owl {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/darth06/.vscode-oss/extensions/extensions.json","path":"/home/darth06/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.0","date":"2024-12-12T16:24:27.456Z"}}
+2024-12-13 22:22:58.768 [info] Extracted extension to file:///home/darth06/.vscode-oss/extensions/sdras.night-owl-2.0.2-universal: sdras.night-owl
+2024-12-13 22:22:58.772 [info] Renamed to /home/darth06/.vscode-oss/extensions/sdras.night-owl-2.0.2-universal
+2024-12-13 22:22:58.778 [info] Extension installed successfully: sdras.night-owl vscode-userdata:/home/darth06/.vscode-oss/extensions/extensions.json
+2024-12-13 22:22:58.854 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/darth06/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/darth06/.vscode-oss/extensions/extensions.json.vsctmp'
+    at Kv.create (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:44554)
+    at xi (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:44661)
+    at jn.toFileSystemProviderError (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:28652)
+    at jn.stat (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:20509)
+    at async vu.stat (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:103140)
+    at async du.onDidFilesChange (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:80829)

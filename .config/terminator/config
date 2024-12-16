@@ -1,0 +1,81 @@
+[global_config]
+  tab_position = bottom
+  scroll_tabbar = True
+  enabled_plugins = SaveLastSessionLayout, LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler
+  title_at_bottom = True
+  new_tab_after_current_tab = True
+[keybindings]
+  rotate_cw = ""
+  toggle_scrollbar = ""
+  move_tab_right = ""
+  move_tab_left = ""
+  toggle_zoom = ""
+  scaled_zoom = ""
+  next_tab = <Alt>Tab
+  switch_to_tab_1 = <Alt>1
+  switch_to_tab_2 = <Alt>2
+  switch_to_tab_3 = <Alt>3
+  switch_to_tab_4 = <Alt>4
+  switch_to_tab_5 = <Alt>5
+  switch_to_tab_6 = <Alt>6
+  switch_to_tab_7 = <Alt>7
+  switch_to_tab_8 = <Alt>8
+  switch_to_tab_9 = <Alt>9
+  reset = ""
+  reset_clear = ""
+  hide_window = ""
+  group_all = ""
+  ungroup_all = ""
+  ungroup_win = ""
+  group_tab = ""
+  ungroup_tab = ""
+  new_terminator = ""
+  insert_number = ""
+  insert_padded = ""
+  edit_window_title = ""
+  edit_tab_title = ""
+  edit_terminal_title = ""
+[profiles]
+  [[default]]
+    background_color = "#011627"
+    background_darkness = 0.95
+    background_type = transparent
+    cursor_shape = ibeam
+    cursor_fg_color = "#000000"
+    cursor_bg_color = "#aaaaaa"
+    cursor_color_default = False
+    font = JetBrainsMono Nerd Font Bold 14
+    foreground_color = "#bdc1c6"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#1d3b53:#fc514e:#a1cd5e:#e3d18a:#82aaff:#c792ea:#7fdbca:#a1aab8:#7c8f8f:#ff5874:#21c7a8:#ecc48d:#82aaff:#ae81ff:#7fdbca:#d6deeb"
+    use_system_font = False
+  [[New Profile]]
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+  [[SaveLastSessionLayout]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 0:17
+      maximised = False
+      fullscreen = False
+      size = 1920, 1063
+      title = /usr/bin/zsh
+      last_active_term = 42b33579-26eb-4e18-94cd-13fa7cf18299
+      last_active_window = True
+    [[[terminal1]]]
+      type = Terminal
+      parent = child0
+      order = 0
+      profile = default
+      uuid = 42b33579-26eb-4e18-94cd-13fa7cf18299
+      directory = None
+[plugins]
