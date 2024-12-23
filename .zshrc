@@ -52,6 +52,8 @@ alias ls='exa --icons'
 alias bat='bat --style=auto'
 alias update='yay -Syyuu && yay -Scc'
 alias celar='clear'
+alias clera='clear'
+alias clears='clear'
 
 # exporting path
 export PATH=$HOME/.local/bin:$HOME/.cargo/bin:$PATH
