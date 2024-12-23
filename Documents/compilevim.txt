@@ -1,0 +1,7 @@
+1 - git clone https://github.com/vim/vim.git
+2 - cd vim
+ git tag --list 
+ git checkout v#last
+3 - ./configure --with-features=huge --enable-multibyte --enable-rubyinterp=yes --enable-pythoninterp=yes --enable-python3interp=yes --enable-perlinterp=yes --enable-luainterp=yes --enable-cscope --prefix=/usr/local
+4 - make
+5 - sudo make install
