@@ -54,6 +54,7 @@ alias update='yay -Syyuu && yay -Scc'
 alias celar='clear'
 alias clera='clear'
 alias clears='clear'
+alias cleasr='clear'
 alias claer='clear'
 
 # exporting path
