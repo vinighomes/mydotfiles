@@ -22,7 +22,7 @@ elif [[ ( "$theme" == *'type-2'* ) || ( "$theme" == *'type-4'* ) ]]; then
 fi
 
 # CMDs (add your apps here)
-term_cmd='terminator -x vim /home/darth06/.xmonad/xmonad.hs'
+term_cmd='terminator -x vim /home/darth06/.config/xmonad/xmonad.hs'
 file_cmd='thunar /home/darth06'
 text_cmd='vscodium'
 web_cmd='nitrogen'

@@ -35,7 +35,7 @@ DisableWheelToCursorByCtrl=on
 #alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias rm='trash'
-alias xcfg='vim ~/.xmonad/xmonad.hs'
+alias xcfg='vim ~/.config/xmonad/xmonad.hs'
 alias blockcfg='sudo vim /etc/lightdm/slick-greeter.conf'
 alias zshrc='source ~/.zshrc'
 alias dunstfy='notify-send'
