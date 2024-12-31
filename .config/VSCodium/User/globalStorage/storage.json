@@ -7,14 +7,15 @@
         "folders": [],
         "emptyWindows": [
             {
-                "backupFolder": "1734139308985"
+                "backupFolder": "1735318624619"
             }
         ]
     },
     "profileAssociations": {
         "workspaces": {},
         "emptyWindows": {
-            "1734139308985": "__default__profile__"
+            "1734139308985": "__default__profile__",
+            "1735318624619": "__default__profile__"
         }
     },
     "lastKnownMenubarData": {
@@ -69,6 +70,20 @@
                                     "id": "workbench.action.reopenClosedEditor",
                                     "label": "&&Reopen Closed Editor",
                                     "enabled": false
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/darth06/.xmonad/xmonad.hs",
+                                        "path": "/home/darth06/.xmonad/xmonad.hs",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.xmonad/xmonad.hs"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -404,8 +419,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "&&Primary Side Bar",
-                                    "checked": true
+                                    "label": "&&Primary Side Bar"
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -619,6 +633,13 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "workbench.action.splitEditorInGroup",
+                                    "label": "Split in &&Group"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.moveEditorToNewWindow",
                                     "label": "&&Move Editor into New Window"
                                 },
@@ -718,8 +739,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "enabled": false
+                        "label": "&&Word Wrap"
                     }
                 ]
             },
@@ -1402,6 +1422,11 @@
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+\\"
             },
+            "workbench.action.splitEditorInGroup": {
+                "label": "Ctrl+K Ctrl+Shift+\\",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
+            },
             "workbench.action.copyEditorToNewWindow": {
                 "label": "Ctrl+K O",
                 "isNative": false,
@@ -1644,20 +1669,20 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 300,
+            "sideBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/darth06/.config/VSCodium/Backups/1734139308985",
+            "backupPath": "/home/darth06/.config/VSCodium/Backups/1735318624619",
             "uiState": {
                 "mode": 1,
-                "x": 0,
-                "y": 17,
-                "width": 1920,
-                "height": 1063
+                "x": 2,
+                "y": 19,
+                "width": 956,
+                "height": 1059
             }
         },
         "openedWindows": []

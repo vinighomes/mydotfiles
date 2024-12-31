@@ -69,15 +69,15 @@
       fullscreen = False
       size = 1920, 1063
       title = /usr/bin/zsh
-      last_active_term = ec7ab8ba-9252-4b77-ba3a-f0221e14a5e8
+      last_active_term = 496cb209-8fe3-4e7f-a363-c3e544fb41f3
       last_active_window = False
     [[[terminal1]]]
       type = Terminal
       parent = child0
       order = 0
       profile = default
-      uuid = ec7ab8ba-9252-4b77-ba3a-f0221e14a5e8
-      directory = "/run/user/1000/gvfs/smb-share:server=192.168.0.11,share=media/Music/🖤mix-2024🖤/allrock"
+      uuid = 496cb209-8fe3-4e7f-a363-c3e544fb41f3
+      directory = /home/darth06
     [[[child2]]]
       type = Window
       parent = ""
@@ -87,13 +87,13 @@
       fullscreen = False
       size = 1920, 1063
       title = /usr/bin/zsh
-      last_active_term = d03516d2-7e91-41a0-8d86-fdc1dce7a09f
+      last_active_term = ecc32e96-78c0-47a5-b27d-13f8a49fa7b3
       last_active_window = True
     [[[terminal3]]]
       type = Terminal
       parent = child2
       order = 0
       profile = default
-      uuid = d03516d2-7e91-41a0-8d86-fdc1dce7a09f
+      uuid = ecc32e96-78c0-47a5-b27d-13f8a49fa7b3
       directory = None
 [plugins]

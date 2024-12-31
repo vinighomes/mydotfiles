@@ -2,5 +2,13 @@
 image/png=viewnior.desktop;
 application/vnd.sun.xml.writer.template=vim.desktop;
 application/toml=vim.desktop;
-text/plain=vim.desktop;codium-wayland.desktop;
+text/plain=gvim.desktop;vim.desktop;codium-wayland.desktop;
 image/gif=viewnior.desktop;
+application/octet-stream=gvim.desktop;
+application/vnd.efi.iso=gnome-disk-image-mounter.desktop;
+application/x-executable=jconsole-java-openjdk.desktop;
+
+[Default Applications]
+application/octet-stream=gvim.desktop
+x-scheme-handler/discord-424004941485572097=discord-424004941485572097.desktop
+application/x-executable=jconsole-java-openjdk.desktop
