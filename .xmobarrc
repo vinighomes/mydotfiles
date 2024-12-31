@@ -2,7 +2,7 @@
    , additionalFonts = [    "Font Awesome 6 Free Solid 12"
                            , "Font Awesome 6 Brands 11"
                            , "Font JetBrainsMono Nerd Font 14"
-			   , "Noto Fonts Emoji 14"
+			               , "Noto Fonts Emoji 14"
                            ]
    , bgColor =     "#00002a"
    , fgColor =     "#5d5cff"
@@ -19,7 +19,7 @@
    , overrideRedirect = True    -- set the Override Redirect flag (Xlib)
    , pickBroadest =     False   -- choose widest display (multi-monitor)
    , persistent =       True    -- enable/disable hiding (True = disabled)
-   , iconRoot = ".xmonad/xpm/"  -- default: "."
+   , iconRoot = ".config/xmonad/xpm/"  -- default: "."
    , commands = 
         -- weather monitor
 	[ Run Weather "SBBU" [ "--template", "<skyCondition> <fn=1></fn> <fc=#4682B4><tempC></fc>°C"
