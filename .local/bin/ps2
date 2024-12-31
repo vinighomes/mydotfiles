@@ -1,0 +1,3 @@
+#!/bin/sh
+
+smbd --configfile=/home/darth06/.config/samba/smb.conf.ps2
