@@ -69,31 +69,13 @@
       fullscreen = False
       size = 1920, 1063
       title = /usr/bin/zsh
-      last_active_term = 496cb209-8fe3-4e7f-a363-c3e544fb41f3
-      last_active_window = False
+      last_active_term = ec64123f-4383-43a7-a4ba-a9b8e2a5f568
+      last_active_window = True
     [[[terminal1]]]
       type = Terminal
       parent = child0
       order = 0
       profile = default
-      uuid = 496cb209-8fe3-4e7f-a363-c3e544fb41f3
-      directory = /home/darth06
-    [[[child2]]]
-      type = Window
-      parent = ""
-      order = 0
-      position = 0:17
-      maximised = False
-      fullscreen = False
-      size = 1920, 1063
-      title = /usr/bin/zsh
-      last_active_term = ecc32e96-78c0-47a5-b27d-13f8a49fa7b3
-      last_active_window = True
-    [[[terminal3]]]
-      type = Terminal
-      parent = child2
-      order = 0
-      profile = default
-      uuid = ecc32e96-78c0-47a5-b27d-13f8a49fa7b3
+      uuid = ec64123f-4383-43a7-a4ba-a9b8e2a5f568
       directory = None
 [plugins]

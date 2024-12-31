@@ -22,7 +22,7 @@ import Graphics.X11.ExtraTypes.XF86
 import XMonad.Layout.Spacing 
 import XMonad.Layout.LayoutModifier
 import XMonad.Layout.MultiToggle (mkToggle, single, EOT(EOT), (??))
-import XMonad.Layout.MultiToggle.Instances (StdTransformers(NBFULL, MIRROR, NOBORDERS))
+import XMonad.Layout.MultiToggle.Instances (StdTransformers(MIRROR))
 import XMonad.Layout.WindowNavigation
 import XMonad.Layout.GridVariants (Grid(Grid))
 import XMonad.Layout.Renamed
@@ -33,20 +33,10 @@ import XMonad.Layout.NoBorders
 
 -- Xmobar
 import XMonad.Hooks.DynamicLog 
-import XMonad.Hooks.StatusBar 
 import XMonad.Util.Loggers 
 
--- Java IDE
-import XMonad.Hooks.EwmhDesktops
+-- Some IDEs need this import and set wm LG3D
 import XMonad.Hooks.SetWMName
-
--- Variables
-myBrowser    = "firefox" -- Web browser.
-mySearch     = "~/.local/bin/launcher.sh" -- The laucher rofi with my defaults config.
-myPowermenu  = "~/.local/bin/powermenu" -- The powermenu rofi with my defaults config.
-myScreenshot = "~/.local/bin/screenshot" -- The screenshot menu rofi with my defaults config.
-myQuick1     = "~/.local/bin/apps.sh" -- The quicklinks menu rofi.
-myQuick2     = "~/.local/bin/quicklinks.sh" -- The quicklinks menu rofi 2.
 
 ------------------------------------------------------------------------
 -- Key bindings. Add, modify or remove key bindings here.
@@ -74,37 +64,37 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     , ((modm .|. shiftMask, xK_p ), spawn "dmenu_run -i -nb '#00002a' -nf '#cc241d' -sb '#cc241d' -sf '#00002a' -fn 'HackRegular:bold:pixelsize=14'")
     
     -- open the system search box (rofi)  
-    , ((modm, xK_p ), spawn $ mySearch)
+    , ((modm, xK_p ), spawn $ "~/.local/bin/launcher.sh")
     
     -- quicklinks 
     --quick1
-    , ((modm, xK_n ), spawn $ myQuick1)
+    , ((modm, xK_n ), spawn $ "~/.local/bin/apps.sh")
     --quick2
-    , ((modm, xK_v ), spawn $ myQuick2)
+    , ((modm, xK_v ), spawn $ "~/.local/bin/quicklinks.sh")
     
     -- powermenu (rofi)
-    , ((modm, xK_o ), spawn $ myPowermenu)   
+    , ((modm, xK_o ), spawn $ "~/.local/bin/powermenu")   
 
     -- screenshot menu (rofi)
-    , ((0, xK_Print ), spawn $ myScreenshot)
+    , ((0, xK_Print ), spawn $ "~/.local/bin/screenshot")
     
     -- lockscreen
     , ((modm, xK_i ), spawn "dm-tool lock")
 
     -- launch web browser
-    , ((modm, xK_g ), spawn myBrowser) 
+    , ((modm, xK_g ), spawn "firefox") 
 
     -- close focused window
     , ((modm .|. shiftMask, xK_c ), kill)
 
     -- Rotate through the available layout algorithms
     , ((modm, xK_space ), sendMessage NextLayout)
-
+    
     --  Reset the layouts on the current workspace to default
     , ((modm .|. shiftMask, xK_space ), setLayout $ XMonad.layoutHook conf)
 
     -- Move focus to the next window
-    , ((modm, xK_Tab ), windows W.focusDown)
+    , ((mod1Mask, xK_Tab ), windows W.focusDown)
 
     -- Move focus to the next window
     , ((modm, xK_j ), windows W.focusDown)
@@ -261,10 +251,10 @@ devII	 = renamed [Replace "devII"]
            $ dev
 
 -- The layout hook
-myLayoutHook = mkToggle (NBFULL ?? NOBORDERS ?? EOT) myDefaultLayout
+myLayoutHook = mkToggle (EOT) myDefaultLayout
 
   where
-    myDefaultLayout = noBorders vwm
+    myDefaultLayout = vwm
 		      ||| dev
               ||| grid
 		      ||| devI
@@ -333,15 +323,14 @@ toggleStrutsKey XConfig {XMonad.modMask = modMask} = (modMask, xK_b)
 -- Run xmonad with the settings you specify. No need to modify this.
 --
 main = xmonad =<< statusBar "xmobar" myXmobarPP toggleStrutsKey defaults 
-            { startupHook = startupHook defaults >> setWMName "LG3D"
-            }
-
+           
 -- A structure containing your configuration settings, overriding
 -- fields in the default config. Any you don't override, will
 -- use the defaults defined in xmonad/XMonad/Config.hs
 --
 -- No need to modify this.
 --
+
 defaults = def {
       -- simple stuff
         terminal           = "terminator",
@@ -359,5 +348,6 @@ defaults = def {
 
       -- hooks, layouts
         layoutHook         = myLayoutHook,
-        manageHook         = myManageHook <+> manageHook def
+        manageHook         = myManageHook <+> manageHook def,
+        startupHook        = setWMName "LG3D" -- Turn possible open some IDEs.
     }
