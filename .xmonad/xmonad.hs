@@ -36,6 +36,10 @@ import XMonad.Hooks.DynamicLog
 import XMonad.Hooks.StatusBar 
 import XMonad.Util.Loggers 
 
+-- Java IDE
+import XMonad.Hooks.EwmhDesktops
+import XMonad.Hooks.SetWMName
+
 -- Variables
 myBrowser    = "firefox" -- Web browser.
 mySearch     = "~/.local/bin/launcher.sh" -- The laucher rofi with my defaults config.
@@ -260,12 +264,12 @@ devII	 = renamed [Replace "devII"]
 myLayoutHook = mkToggle (NBFULL ?? NOBORDERS ?? EOT) myDefaultLayout
 
   where
-    myDefaultLayout = dev
-		      ||| grid
+    myDefaultLayout = noBorders vwm
+		      ||| dev
+              ||| grid
 		      ||| devI
-		      ||| devII 
-              ||| noBorders vwm
-
+		      ||| devII
+              
 --------------------------------------------------------------------------
 -- Window rules:
 
@@ -284,6 +288,7 @@ myLayoutHook = mkToggle (NBFULL ?? NOBORDERS ?? EOT) myDefaultLayout
 myManageHook = composeAll
     [ className =? "MPlayer"        --> doFloat
     , className =? "Gimp"           --> doFloat
+    , className =? "netbeans"       --> doFloat
     , className =? "feh" 	        --> doFloat
     , className =? "mpv" 	        --> doFloat
     , className =? "vlc" 	        --> doFloat
@@ -327,7 +332,9 @@ toggleStrutsKey XConfig {XMonad.modMask = modMask} = (modMask, xK_b)
 
 -- Run xmonad with the settings you specify. No need to modify this.
 --
-main = xmonad =<< statusBar "xmobar" myXmobarPP toggleStrutsKey defaults
+main = xmonad =<< statusBar "xmobar" myXmobarPP toggleStrutsKey defaults 
+            { startupHook = startupHook defaults >> setWMName "LG3D"
+            }
 
 -- A structure containing your configuration settings, overriding
 -- fields in the default config. Any you don't override, will
