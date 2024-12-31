@@ -33,6 +33,7 @@ import XMonad.Layout.NoBorders
 
 -- Xmobar
 import XMonad.Hooks.DynamicLog 
+import XMonad.Hooks.StatusBar
 import XMonad.Util.Loggers 
 
 -- Some IDEs need this import and set wm LG3D
