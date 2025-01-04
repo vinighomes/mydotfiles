@@ -95,7 +95,7 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     , ((modm .|. shiftMask, xK_space ), setLayout $ XMonad.layoutHook conf)
 
     -- Move focus to the next window
-    , ((mod1Mask, xK_Tab ), windows W.focusDown)
+    , ((modm, xK_Tab ), windows W.focusDown)
 
     -- Move focus to the next window
     , ((modm, xK_j ), windows W.focusDown)
