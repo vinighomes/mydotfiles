@@ -1,0 +1,32 @@
+[
+  {
+    "project": "tmp:split_config.arm64_v8a-6045db1d976ac7da77412f13fc9e61af",
+    "cache": "/home/darth06/.cache/jadx/projects/split_config.arm64_v8a-6045db1d976ac7da77412f13fc9e61af",
+    "timestamp": 1742073094225
+  },
+  {
+    "project": "tmp:split_config.mdpi-6c27a192f3200e140d73769442fe1498",
+    "cache": "/home/darth06/.cache/jadx/projects/split_config.mdpi-6c27a192f3200e140d73769442fe1498",
+    "timestamp": 1742072854494
+  },
+  {
+    "project": "tmp:9Xtream_41.0.1_@leidehmods_[PREMIUM]_-8656474aa3df7eb5f92f53689e886d69",
+    "cache": "/home/darth06/.cache/jadx/projects/9Xtream_41.0.1_@leidehmods_[PREMIUM]_-8656474aa3df7eb5f92f53689e886d69",
+    "timestamp": 1740347748642
+  },
+  {
+    "project": "tmp:base-1b3266329dacdeb85004ef1a52649dde",
+    "cache": "/home/darth06/.cache/jadx/projects/base-1b3266329dacdeb85004ef1a52649dde",
+    "timestamp": 1740346838843
+  },
+  {
+    "project": "tmp:base_split_config.arm64_v8a_split_config.mdpi-e691011b69b9327f42411a33d2f26d49",
+    "cache": "/home/darth06/.cache/jadx/projects/base_split_config.arm64_v8a_split_config.mdpi-e691011b69b9327f42411a33d2f26d49",
+    "timestamp": 1740346439557
+  },
+  {
+    "project": "tmp:9Xtreamv41.0-apkdelisi.net-a83b7398faf162ed5d1b57c9a9b3b31d",
+    "cache": "/home/darth06/.cache/jadx/projects/9Xtreamv41.0-apkdelisi.net-a83b7398faf162ed5d1b57c9a9b3b31d",
+    "timestamp": 1739652274656
+  }
+]

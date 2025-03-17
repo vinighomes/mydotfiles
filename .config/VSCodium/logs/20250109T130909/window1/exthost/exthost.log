@@ -1,0 +1,38 @@
+2025-01-09 13:09:10.259 [info] Extension host with pid 608656 started
+2025-01-09 13:09:10.259 [info] Skipping acquiring lock for /home/darth06/.config/VSCodium/User/workspaceStorage/71bf4fc8d1f87ce7c4cb402fabf1f793.
+2025-01-09 13:09:10.304 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-01-09 13:09:10.317 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-01-09 13:09:10.372 [info] Eager extensions activated
+2025-01-09 13:09:10.373 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-01-09 13:09:10.375 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-01-09 13:09:10.390 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2025-01-09 13:09:10.412 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-01-09 13:09:10.439 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2025-01-09 13:09:17.028 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-01-09 13:09:17.097 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2025-01-09 13:09:42.989 [info] ExtensionService#_doActivateExtension redhat.java, startup: false, activationEvent: 'onLanguage:java'
+2025-01-09 13:09:43.129 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug, startup: false, activationEvent: 'onLanguage:java'
+2025-01-09 13:09:43.200 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-01-09 13:09:43.299 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-01-09 13:09:43.360 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-01-09 13:10:25.523 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-01-09 13:10:25.530 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-01-09 13:10:25.571 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-01-09 13:10:38.745 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2025-01-09 13:11:30.548 [error] [redhat.java] provider FAILED
+2025-01-09 13:11:30.551 [error] Error: The request (id: 151, method: 'textDocument/hover') has been cancelled
+	at /home/darth06/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1066202
+	at re (/home/darth06/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1066496)
+	at /home/darth06/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1061280
+	at Immediate.<anonymous> (/home/darth06/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1061300)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-09 13:12:10.281 [error] [redhat.java] provider FAILED
+2025-01-09 13:12:10.281 [error] Error: The request (id: 164, method: 'textDocument/hover') has been cancelled
+	at /home/darth06/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1066202
+	at re (/home/darth06/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1066496)
+	at /home/darth06/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1061280
+	at Immediate.<anonymous> (/home/darth06/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/dist/extension.js:2:1061300)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-01-09 13:13:45.590 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-01-09 13:16:27.728 [info] Extension host terminating: renderer closed the MessagePort
+2025-01-09 13:16:27.741 [info] Extension host with pid 608656 exiting with code 0

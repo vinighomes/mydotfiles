@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+/home/darth06/.config/VSCodium/User/workspaceStorage/71bf4fc8d1f87ce7c4cb402fabf1f793/redhat.java/jdt_ws/.metadata/.plugins/org.eclipse.jdt.core
+3842426239.index
+1865797976.index
+3789382167.index

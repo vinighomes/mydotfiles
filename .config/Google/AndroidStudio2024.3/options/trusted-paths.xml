@@ -1,0 +1,21 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$APPLICATION_CONFIG_DIR$/light-edit" value="true" />
+        <entry key="$USER_HOME$/AndroidStudioProjects/Learning" value="true" />
+        <entry key="$USER_HOME$/AndroidStudioProjects/MyApplication" value="true" />
+        <entry key="$USER_HOME$/AndroidStudioProjects/darthflix" value="true" />
+        <entry key="$USER_HOME$/Downloads/darthflix.2.0/new/app/9Xtream_41.0.1_@leidehmods_[PREMIUM]_" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="Trusted.Paths.Settings">
+    <option name="TRUSTED_PATHS">
+      <list>
+        <option value="$APPLICATION_CONFIG_DIR$" />
+        <option value="$USER_HOME$/Downloads/darthflix.2.0/new/app" />
+      </list>
+    </option>
+  </component>
+</application>

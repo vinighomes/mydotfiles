@@ -1,3 +1,2 @@
-2024/12/23-19:23:19.743 11349 Reusing MANIFEST /home/darth06/.config/VSCodium/Service Worker/Database/MANIFEST-000001
-2024/12/23-19:23:19.747 11349 Recovering log #3
-2024/12/23-19:23:19.748 11349 Reusing old log /home/darth06/.config/VSCodium/Service Worker/Database/000003.log 
+2025/01/09-13:03:31.234 8bec9 Creating DB /home/darth06/.config/VSCodium/Service Worker/Database since it was missing.
+2025/01/09-13:03:31.237 8bec9 Reusing MANIFEST /home/darth06/.config/VSCodium/Service Worker/Database/MANIFEST-000001

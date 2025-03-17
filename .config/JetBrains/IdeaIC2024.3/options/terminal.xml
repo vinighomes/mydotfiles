@@ -1,0 +1,11 @@
+<application>
+  <component name="BlockTerminalUsage">
+    <option name="blockTerminalDisabledLastTimeMillis" value="1736441730014" />
+    <option name="blockTerminalUsedLastTimeMillis" value="1736441721994" />
+    <option name="blockTerminalUsedLastVersion" value="243.22562.218" />
+    <option name="feedbackNotificationShown" value="true" />
+    <shellToExecutedCommandsNumber>
+      <entry key="zsh" value="4" />
+    </shellToExecutedCommandsNumber>
+  </component>
+</application>

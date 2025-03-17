@@ -1,0 +1,199 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$Copy">
+      <i c="1" l="1742157221355" />
+    </e>
+    <e n="$Delete">
+      <i c="3" l="1742156413324" />
+    </e>
+    <e n="$SelectAll">
+      <i c="4" l="1742157976391" />
+    </e>
+    <e n="$Undo">
+      <i c="42" l="1742160131021" />
+    </e>
+    <e n="Adtui.ZoomInAction">
+      <i c="11" l="1742161478539" />
+    </e>
+    <e n="Adtui.ZoomOutAction">
+      <i c="3" l="1742161479203" />
+    </e>
+    <e n="Android.AdbDevicePairing">
+      <i c="1" l="1742155910777" />
+    </e>
+    <e n="Android.DeviceManager2">
+      <i c="7" l="1742160904592" />
+    </e>
+    <e n="Android.ExportProjectZip">
+      <i c="1" l="1741804887827" />
+    </e>
+    <e n="Android.RunAndroidSdkManager">
+      <i c="1" l="1742140639247" />
+    </e>
+    <e n="CloseProject">
+      <i c="10" l="1742162322052" />
+    </e>
+    <e n="DeveloperServices.ConnectionAssistant">
+      <i c="3" l="1742155934665" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="313" l="1742161413360" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="2" l="1742159897547" />
+    </e>
+    <e n="EditorCopy">
+      <i c="10" l="1742157959977" />
+    </e>
+    <e n="EditorDeleteToWordStart">
+      <i c="13" l="1742160164382" />
+    </e>
+    <e n="EditorEnter">
+      <i c="1" l="1742159874011" />
+    </e>
+    <e n="EditorPaste">
+      <i c="5" l="1742158127410" />
+    </e>
+    <e n="EditorTabsEntryPoint">
+      <i c="2" l="1742140078532" />
+    </e>
+    <e n="Exit">
+      <i c="1" l="1741804941573" />
+    </e>
+    <e n="MoreRunToolbarActions">
+      <i c="7" l="1742155925549" />
+    </e>
+    <e n="ProjectFromVersionControl">
+      <i c="1" l="1742161560939" />
+    </e>
+    <e n="RedesignedRunConfigurationSelector">
+      <i c="5" l="1742155943515" />
+    </e>
+    <e n="Run">
+      <i c="37" l="1742161482443" />
+    </e>
+    <e n="RunAnything">
+      <i c="1" l="1742140088842" />
+    </e>
+    <e n="SaveAll">
+      <i c="7" l="1742158354592" />
+    </e>
+    <e n="SearchEverywhere">
+      <i c="1" l="1742140609521" />
+    </e>
+    <e n="SelectMultipleDevices">
+      <i c="1" l="1741804650695" />
+    </e>
+    <e n="SettingsEntryPoint">
+      <i c="7" l="1742151325803" />
+    </e>
+    <e n="ShowSettings">
+      <i c="2" l="1742140226471" />
+    </e>
+    <e n="Stop">
+      <i c="2" l="1742161536170" />
+    </e>
+    <e n="ToggleLineBreakpoint">
+      <i c="3" l="1742155892726" />
+    </e>
+    <e n="WelcomeScreen.CreateNewProject">
+      <i c="5" l="1742162203162" />
+    </e>
+    <e n="WelcomeScreen.NewGroup">
+      <i c="1" l="1742083070838" />
+    </e>
+    <e n="WelcomeScreen.OpenProject">
+      <i c="4" l="1742083307139" />
+    </e>
+    <e n="WelcomeScreen.RemoveSelected">
+      <i c="7" l="1742162327101" />
+    </e>
+    <e n="android.deploy.CodeSwap">
+      <i c="1" l="1742140175969" />
+    </e>
+    <e n="android.device.rotate.left">
+      <i c="18" l="1742162314522" />
+    </e>
+    <e n="android.device.rotate.right">
+      <i c="1" l="1742158059266" />
+    </e>
+    <e n="android.device.volume.down.button">
+      <i c="8" l="1742162238713" />
+    </e>
+    <e n="android.device.volume.up.button">
+      <i c="19" l="1742162256801" />
+    </e>
+    <e n="android.streaming.hardware.input">
+      <i c="1" l="1742156363908" />
+    </e>
+    <e n="com.android.tools.adtui.actions.DropDownAction">
+      <i c="1" l="1742155961226" />
+    </e>
+    <e n="com.android.tools.adtui.workbench.AttachedToolWindow$GearAction">
+      <i c="1" l="1742140719884" />
+    </e>
+    <e n="com.android.tools.idea.devicemanagerv2.DeviceManagerPanel$toAnAction$2">
+      <i c="1" l="1742155963206" />
+    </e>
+    <e n="com.android.tools.idea.run.deployment.selector.SelectDeviceAction">
+      <i c="2" l="1742140092805" />
+    </e>
+    <e n="com.android.tools.idea.streaming.core.StreamingToolWindowFactory$MoveToWindowAction">
+      <i c="10" l="1742162299240" />
+    </e>
+    <e n="com.android.tools.idea.streaming.core.StreamingToolWindowManager$NewTabAction">
+      <i c="1" l="1742155909861" />
+    </e>
+    <e n="com.intellij.ide.actions.ToolWindowMoveAction">
+      <i c="3" l="1742139209042" />
+    </e>
+    <e n="com.intellij.ide.actions.ToolWindowViewModeAction">
+      <i c="6" l="1742139187663" />
+    </e>
+    <e n="com.intellij.ide.lightEdit.LightEditTabs$CloseTabAction">
+      <i c="2" l="1742083049741" />
+    </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="1" l="1742151265509" />
+    </e>
+    <e n="com.intellij.openapi.editor.impl.EditorMarkupModelImpl$TrafficLightAction">
+      <i c="1" l="1742140964670" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="13" l="1742156370048" />
+    </e>
+    <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
+      <i c="8" l="1742160003522" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.DockToolWindowAction">
+      <i c="10" l="1742162301074" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="31" l="1742162219442" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.ToolWindowImpl$RemoveStripeButtonAction">
+      <i c="1" l="1742139214369" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="18" l="1742162321054" />
+    </e>
+    <e n="com.intellij.refactoring.actions.RenameElementAction">
+      <i c="5" l="1742161415100" />
+    </e>
+    <e n="com.intellij.toolWindow.ShowMoreToolWindowsAction">
+      <i c="1" l="1742139218001" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="8" l="1742161234467" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$ShowOptionsAction">
+      <i c="23" l="1742157911763" />
+    </e>
+    <e n="com.intellij.xdebugger.impl.breakpoints.RemoveBreakpointGutterIconAction">
+      <i c="1" l="1742139789430" />
+    </e>
+    <e n="editRunConfigurations">
+      <i c="2" l="1742155944701" />
+    </e>
+  </component>
+</application>

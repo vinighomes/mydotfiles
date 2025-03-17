@@ -5,8 +5,10 @@ application/toml=vim.desktop;
 text/plain=gvim.desktop;vim.desktop;codium-wayland.desktop;
 image/gif=viewnior.desktop;
 application/octet-stream=gvim.desktop;
-application/vnd.efi.iso=gnome-disk-image-mounter.desktop;
+application/vnd.efi.iso=org.kde.ark.desktop;gnome-disk-image-mounter.desktop;
 application/x-executable=jconsole-java-openjdk.desktop;
+image/jpeg=viewnior.desktop;
+application/vnd.android.package-archive=jd-gui.desktop;
 
 [Default Applications]
 application/octet-stream=gvim.desktop

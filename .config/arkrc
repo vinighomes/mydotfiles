@@ -1,7 +1,7 @@
 [ExtractDialog]
 1920x1080 screen: Height=536
-1920x1080 screen: Width=1248
-DirHistory[$e]=$HOME/Downloads/,$HOME/Games/
+1920x1080 screen: Width=1226
+DirHistory[$e]=$HOME/AndroidStudioProjects/darthflix/,$HOME/Downloads/,$HOME/Games/
 
 [General]
 LockSidebar=true
@@ -9,4 +9,3 @@ ShowSidebar=true
 
 [MainWindow]
 StatusBar=Disabled
-ToolBarsMovable=Disabled

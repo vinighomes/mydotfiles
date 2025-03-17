@@ -1,0 +1,22 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+      <component name="VcsDirectoryMappings" defaultProject="true" />
+      <component name="WindowStateProjectService">
+        <state x="0" y="17" width="1920" height="1063" key="SettingsEditor" timestamp="1736439844788">
+          <screen x="0" y="0" width="1920" height="1080" />
+        </state>
+        <state x="0" y="17" width="1920" height="1063" key="SettingsEditor/0.0.1920.1080" timestamp="1736439844788" />
+        <state x="560" y="248" key="new project wizard" timestamp="1736720297043">
+          <screen x="0" y="0" width="1920" height="1080" />
+        </state>
+        <state x="560" y="248" key="new project wizard/0.0.1920.1080" timestamp="1736720297043" />
+      </component>
+    </defaultProject>
+  </component>
+</application>

@@ -1,3 +1,2 @@
-2024/12/23-19:23:19.740 11348 Reusing MANIFEST /home/darth06/.config/VSCodium/Local Storage/leveldb/MANIFEST-000001
-2024/12/23-19:23:19.747 11348 Recovering log #3
-2024/12/23-19:23:19.747 11348 Reusing old log /home/darth06/.config/VSCodium/Local Storage/leveldb/000003.log 
+2025/01/09-13:03:22.380 8bef2 Creating DB /home/darth06/.config/VSCodium/Local Storage/leveldb since it was missing.
+2025/01/09-13:03:22.388 8bef2 Reusing MANIFEST /home/darth06/.config/VSCodium/Local Storage/leveldb/MANIFEST-000001

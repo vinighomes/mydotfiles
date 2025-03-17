@@ -15,13 +15,15 @@
     (size 1920 1063)
     (open-on-exit)
     (aux-info
-        (left-docks-width "188")
-        (right-docks-width "205")
+        (left-docks-width "44")
+        (right-docks-width "264")
         (maximized "no"))
     (gimp-toolbox
-        (side left)
+        (side left))
+    (gimp-dock
+        (side right)
         (book
-            (current-page 0)
+            (current-page 2)
             (dockable "gimp-tool-options"
                 (tab-style automatic)
                 (aux-info
@@ -37,11 +39,7 @@
             (dockable "gimp-image-list"
                 (tab-style automatic)
                 (aux-info
-                    (show-button-bar "true")))))
-    (gimp-dock
-        (side right)
-        (book
-            (current-page 0)
+                    (show-button-bar "true")))
             (dockable "gimp-brush-grid"
                 (tab-style automatic)
                 (aux-info
@@ -59,7 +57,7 @@
                 (aux-info
                     (show-button-bar "true"))))
         (book
-            (position 336)
+            (position 476)
             (current-page 0)
             (dockable "gimp-layer-list"
                 (tab-style automatic)
@@ -76,6 +74,24 @@
                 (preview-size 32)
                 (aux-info
                     (show-button-bar "true"))))))
+(session-info "toplevel"
+    (factory-entry "gimp-toolbox-color-dialog")
+    (position 0 38))
+(session-info "toplevel"
+    (factory-entry "gimp-action-search-dialog")
+    (position 1005 404)
+    (size 160 27))
+(session-info "toplevel"
+    (factory-entry "gimp-file-open-dialog")
+    (position 0 266)
+    (size 1030 736))
+(session-info "toplevel"
+    (factory-entry "gimp-image-new-dialog")
+    (position 888 151))
+(session-info "toplevel"
+    (factory-entry "gimp-file-save-dialog")
+    (position 0 0)
+    (size 1026 732))
 
 (hide-docks no)
 (single-window-mode yes)

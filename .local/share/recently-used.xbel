@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/darth06/Downloads/darthflix.2.0/new/app/icons/new/res/drawable/img_cc_preview.jpg" added="2025-02-13T21:37:02.144698Z" modified="2025-02-21T21:02:33.710943Z" visited="2025-02-13T21:37:02.144699Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.10 %u&apos;" modified="2025-02-21T21:02:33.710941Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darth06/Downloads/darthflix.2.0/new/app/icons/new/res/drawable/img_1.png" added="2025-02-13T21:37:02.145044Z" modified="2025-02-21T20:34:58.739306Z" visited="2025-02-13T21:37:02.145044Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.10 %u&apos;" modified="2025-02-21T20:34:58.739302Z" count="12"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darth06/Downloads/darthflix.2.0/new/app/icons/new/res/drawable/vip_card.png" added="2025-02-13T21:37:02.145367Z" modified="2025-02-21T20:59:40.371284Z" visited="2025-02-13T21:37:02.145368Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.10 %u&apos;" modified="2025-02-21T20:59:40.371283Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darth06/Downloads/tv_channels_robertoazn_plus.m3u" added="2025-02-22T13:29:52.289027Z" modified="2025-02-22T13:30:25.644692Z" visited="2025-02-22T13:29:52.289028Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/x-mpegurl"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-02-22T13:30:25.644689Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darth06/Downloads/tv_channels_robertoazn_plus1.m3u" added="2025-02-22T13:39:56.779442Z" modified="2025-02-22T13:39:57.060774Z" visited="2025-02-22T13:39:56.779444Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/x-mpegurl"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-02-22T13:39:57.060772Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darth06/Downloads/aerial-closeup-shot-beautiful-moon-night.jpg" added="2025-02-22T13:52:19.140227Z" modified="2025-02-22T14:52:33.071837Z" visited="2025-02-22T13:52:19.140229Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-02-22T13:58:41.479699Z" count="3"/>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.10 %u&apos;" modified="2025-02-22T14:52:33.071835Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darth06/Downloads/galaxy-night-view.jpg" added="2025-02-22T13:52:38.962208Z" modified="2025-02-22T14:52:32.602836Z" visited="2025-02-22T13:52:38.962209Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-02-22T13:52:39.257407Z" count="2"/>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.10 %u&apos;" modified="2025-02-22T14:52:32.602834Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darth06/Downloads/Gold%20Luxury%20Initial%20Logo.png" added="2025-02-22T15:05:31.075836Z" modified="2025-03-06T20:54:30.132476Z" visited="2025-02-22T15:05:31.075837Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-02-22T15:05:31.358476Z" count="2"/>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.10 %u&apos;" modified="2025-02-22T15:05:47.156571Z" count="2"/>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-03-06T20:54:30.132473Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darth06/Downloads/Eletr%C3%B4nicos%20&amp;%20Acess%C3%B3rios.png" added="2025-02-22T15:18:21.897399Z" modified="2025-02-22T15:18:28.431142Z" visited="2025-02-22T15:18:21.897400Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-02-22T15:18:22.171165Z" count="2"/>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.10 %u&apos;" modified="2025-02-22T15:18:28.431141Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darth06/Downloads/logo.xcf" added="2025-02-22T16:30:53.767267Z" modified="2025-02-22T16:30:54.056775Z" visited="2025-02-22T16:30:53.767268Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/x-xcf"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.10 %u&apos;" modified="2025-02-22T16:30:54.056774Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darth06/Downloads/tv_channels_Luiz9068_plus.m3u" added="2025-02-22T22:12:18.687807Z" modified="2025-02-22T22:45:26.915972Z" visited="2025-02-22T22:12:18.687809Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/x-mpegurl"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-02-22T22:45:26.915970Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darth06/Downloads/tv_channels_Luiz9068_plus2.m3u" added="2025-02-22T22:13:12.127188Z" modified="2025-02-22T22:13:18.093944Z" visited="2025-02-22T22:13:12.127191Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-zerosize"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-02-22T22:13:18.093939Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darth06/Downloads/tv_channels_robertoazn_plus2.m3u" added="2025-02-22T22:16:46.395838Z" modified="2025-02-22T22:17:04.272284Z" visited="2025-02-22T22:16:46.395840Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/x-mpegurl"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-02-22T22:17:04.272278Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darth06/Downloads/smart-iptv-xtream-player.apk" added="2025-02-23T21:11:57.760907Z" modified="2025-02-23T21:12:03.469843Z" visited="2025-02-23T21:11:57.760908Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.android.package-archive"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-02-23T21:12:03.469837Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darth06/Downloads/Bytecode-Viewer-2.13.0.jar" added="2025-02-23T22:06:50.307970Z" modified="2025-02-23T22:06:58.707064Z" visited="2025-02-23T22:06:50.307972Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/java-archive"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-02-23T22:06:58.707055Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/darth06/6CBF-C150/bkp/windows/ps2/pendrive/conf_apps.cfg" added="2025-03-06T20:03:47.493062Z" modified="2025-03-06T20:03:47.493066Z" visited="2025-03-06T20:03:47.493063Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-03-06T20:03:47.493063Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="smb://192.168.0.11/ps2/conf_apps.cfg" added="2025-03-06T20:03:59.853712Z" modified="2025-03-06T20:03:59.853716Z" visited="2025-03-06T20:03:59.853712Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-03-06T20:03:59.853714Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/darth06/6CBF-C150/bkp/windows/videos/Bloodrayne%20cosplay%2018%20+%20watch%20online.mp4" added="2025-03-06T20:11:11.137178Z" modified="2025-03-06T20:11:34.013045Z" visited="2025-03-06T20:11:11.137179Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-03-06T20:11:34.013043Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/darth06/6CBF-C150/bkp/linux/Video/AURORA%20-%20Runaway%20%5Bd_HlPboLRL8%5D.mp4" added="2025-03-06T20:12:14.099399Z" modified="2025-03-06T20:12:32.463426Z" visited="2025-03-06T20:12:14.099400Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-03-06T20:12:32.463425Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/darth06/6CBF-C150/bkp/linux/Video/Bloodrayne%20cosplay%2018%20+%20watch%20online.mp4" added="2025-03-06T20:12:46.225565Z" modified="2025-03-06T20:12:46.225570Z" visited="2025-03-06T20:12:46.225566Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-03-06T20:12:46.225567Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/darth06/6CBF-C150/bkp/windows/images/finish/00.jpg" added="2025-03-06T20:13:36.229856Z" modified="2025-03-06T20:13:36.229860Z" visited="2025-03-06T20:13:36.229857Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-03-06T20:13:36.229858Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/darth06/6CBF-C150/bkp/windows/images/finish/png/07.png" added="2025-03-06T20:14:34.283200Z" modified="2025-03-06T20:14:34.283203Z" visited="2025-03-06T20:14:34.283201Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-03-06T20:14:34.283201Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/darth06/16CF-353E/conf_apps.cfg" added="2025-03-06T20:16:56.154553Z" modified="2025-03-06T20:16:56.154559Z" visited="2025-03-06T20:16:56.154554Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-03-06T20:16:56.154555Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="smb://192.168.0.11/ps2/CHT/xyz/xxx/17.avi" added="2025-03-06T20:29:59.016837Z" modified="2025-03-06T20:29:59.016841Z" visited="2025-03-06T20:29:59.016838Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/vnd.avi"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-03-06T20:29:59.016839Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="smb://192.168.0.11/ps2/CHT/xyz/xxx/03.avi" added="2025-03-06T20:30:03.956809Z" modified="2025-03-06T20:30:09.784756Z" visited="2025-03-06T20:30:03.956810Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/vnd.avi"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-03-06T20:30:09.784755Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="smb://192.168.0.11/ps2/ART/SLUS_210.04_BG.jpg" added="2025-03-06T20:32:52.551252Z" modified="2025-03-06T20:32:52.551256Z" visited="2025-03-06T20:32:52.551252Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-03-06T20:32:52.551253Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darth06/Downloads/SH3PTB.rar" added="2025-03-06T20:44:00.753926Z" modified="2025-03-06T21:00:07.420248Z" visited="2025-03-06T20:44:00.753927Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.rar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-03-06T21:00:07.420244Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darth06/Downloads/SH4PTB.rar" added="2025-03-06T20:45:20.714807Z" modified="2025-03-06T21:07:53.746706Z" visited="2025-03-06T20:45:20.714809Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.rar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-03-06T21:07:53.746703Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darth06/Downloads/SH0R1G.rar" added="2025-03-06T20:48:06.605382Z" modified="2025-03-06T21:15:25.698406Z" visited="2025-03-06T20:48:06.605384Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.rar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-03-06T21:15:25.698403Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darth06/Downloads/SILENT%20HILL%203/GAME/SILENT%20HILL%203.iso" added="2025-03-06T21:00:47.144119Z" modified="2025-03-06T21:00:47.144124Z" visited="2025-03-06T21:00:47.144120Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.efi.iso"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-03-06T21:00:47.144121Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darth06/Downloads/SILENT%20HILL%204%20PTBR/GAME/SILENT%20HILL%204.ISO" added="2025-03-06T21:08:17.969300Z" modified="2025-03-06T21:08:17.969304Z" visited="2025-03-06T21:08:17.969300Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.efi.iso"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-03-06T21:08:17.969301Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darth06/Downloads/SILENT%20HILL%20ORIGINS/GAME/SILENT%20HILL%20ORIGINS.iso" added="2025-03-06T21:15:53.267853Z" modified="2025-03-06T21:15:53.267856Z" visited="2025-03-06T21:15:53.267854Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.efi.iso"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-03-06T21:15:53.267854Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darth06" added="2025-03-12T18:41:49.696000Z" modified="2025-03-12T18:41:49.696000Z" visited="2025-03-12T18:41:49.696000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.kde.ark" exec="ark %f" modified="2025-03-12T18:41:49.696000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darth06/Downloads/darthflix.2.0/new/app/tools/frida-core-devkit-16.7.0-android-arm64.tar.xz" added="2025-03-13T22:22:25.697086Z" modified="2025-03-13T22:22:26.370204Z" visited="2025-03-13T22:22:25.697088Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-xz-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-03-13T22:22:26.370202Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darth06/Downloads/darthflix.2.0/new/app/tools/frida-server-16.7.0-android-arm64.xz" added="2025-03-13T22:29:37.965580Z" modified="2025-03-13T22:29:38.540854Z" visited="2025-03-13T22:29:37.965582Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-xz"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-03-13T22:29:38.540761Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darth06/Downloads/darthflix.2.0/new/app/tools/frida/frida-server-16.6.6-android-arm64.xz" added="2025-03-14T20:13:34.727177Z" modified="2025-03-14T20:13:35.373682Z" visited="2025-03-14T20:13:34.727179Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-xz"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-03-14T20:13:35.373680Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darth06/Downloads/darthflix.2.0/new/app/tools/frida/frida-server-16.6.6-android-arm64" added="2025-03-14T20:20:10.417208Z" modified="2025-03-14T20:20:10.417212Z" visited="2025-03-14T20:20:10.417209Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-03-14T20:20:10.417210Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darth06/Downloads/darthflix.2.0/new/guide.txt" added="2025-03-15T20:57:09.512003Z" modified="2025-03-15T20:57:09.512011Z" visited="2025-03-15T20:57:09.512004Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-03-15T20:57:09.512006Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darth06/Downloads/darthflix.2.0/new/bkp/split_config.arm64_v8a.apk" added="2025-03-15T21:04:17.545672Z" modified="2025-03-15T21:04:17.545678Z" visited="2025-03-15T21:04:17.545673Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.android.package-archive"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-03-15T21:04:17.545675Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darth06/Downloads/darthflix.2.0/new/bkp/9Xtream_41_0_1-Mod.apk" added="2025-03-15T21:45:58.643928Z" modified="2025-03-15T21:46:20.375526Z" visited="2025-03-15T21:45:58.643930Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.android.package-archive"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-03-15T21:46:20.375523Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darth06/Downloads/Win11_24H2_BrazilianPortuguese_x64.iso" added="2025-03-17T17:22:30.998214Z" modified="2025-03-17T17:22:30.998229Z" visited="2025-03-17T17:22:30.998216Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.efi.iso"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-03-17T17:22:30.998221Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

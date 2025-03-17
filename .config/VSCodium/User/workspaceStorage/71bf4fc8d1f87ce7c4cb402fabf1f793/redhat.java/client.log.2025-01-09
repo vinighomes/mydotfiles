@@ -1,0 +1,98 @@
+{
+  message: "Use the JDK from 'PATH' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2025-01-09 13:09:43.291'
+}
+{
+  message: 'Starting Java server with: /home/darth06/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/jre/17.0.13-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/darth06/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/lombok/lombok-1.18.34.jar -jar /home/darth06/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/darth06/.config/VSCodium/User/globalStorage/redhat.java/1.38.0/config_ss_linux -data /home/darth06/.config/VSCodium/User/workspaceStorage/71bf4fc8d1f87ce7c4cb402fabf1f793/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2025-01-09 13:09:43.307'
+}
+{
+  message: 'Starting Java server with: /home/darth06/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/jre/17.0.13-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/darth06/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/lombok/lombok-1.18.34.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/darth06/.config/VSCodium/User/workspaceStorage/71bf4fc8d1f87ce7c4cb402fabf1f793/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/darth06/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/darth06/.config/VSCodium/User/globalStorage/redhat.java/1.38.0/config_linux -data /home/darth06/.config/VSCodium/User/workspaceStorage/71bf4fc8d1f87ce7c4cb402fabf1f793/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2025-01-09 13:09:43.368'
+}
+{
+  message: 'Jan 09, 2025 1:09:44 PM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2025-01-09 13:09:44.444'
+}
+{
+  message: 'Jan 09, 2025 1:09:44 PM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2025-01-09 13:09:44.446'
+}
+{
+  message: '[Error - 1:09:46 PM] Jan 9, 2025, 1:09:46 PM Failed to create linked resource from file:///home/darth06/NetBeansProjects/Aula02/src/aula02/Aula02.java to jdt.ls-java-project\n' +
+    "Resource '/jdt.ls-java-project/src/aula02' already exists.\n" +
+    "org.eclipse.core.internal.resources.ResourceException(/jdt.ls-java-project/src/aula02)[374]: java.lang.Exception: Resource '/jdt.ls-java-project/src/aula02' already exists.\n" +
+    '\tat org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)\n' +
+    '\tat org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)\n' +
+    '\tat org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:343)\n' +
+    '\tat org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:330)\n' +
+    '\tat org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:40)\n' +
+    '\tat org.eclipse.core.internal.resources.Folder.create(Folder.java:101)\n' +
+    '\tat org.eclipse.core.internal.resources.Folder.create(Folder.java:129)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.createFolders(JDTUtils.java:332)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.getFakeCompilationUnit(JDTUtils.java:313)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.resolveCompilationUnit(JDTUtils.java:201)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.resolveTypeRoot(JDTUtils.java:489)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.resolveTypeRoot(JDTUtils.java:448)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.documentSymbol(DocumentSymbolHandler.java:108)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.lambda$5(SyntaxLanguageServer.java:339)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)\n',
+  level: 'info',
+  timestamp: '2025-01-09 13:09:46.678'
+}
+{
+  message: 'Jan 09, 2025 1:09:48 PM com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start\n' +
+    'INFO: Starting com.microsoft.java.debug.plugin\n',
+  level: 'info',
+  timestamp: '2025-01-09 13:09:48.989'
+}
+{
+  message: 'Jan 09, 2025 1:10:38 PM com.microsoft.java.debug.core.UsageDataSession recordInfo\n' +
+    'INFO: launch debug info\n',
+  level: 'info',
+  timestamp: '2025-01-09 13:10:38.935'
+}
+{
+  message: 'Jan 09, 2025 1:10:39 PM com.microsoft.java.debug.core.UsageDataSession submitUsageData\n' +
+    'INFO: session usage data summary\n',
+  level: 'info',
+  timestamp: '2025-01-09 13:10:39.981'
+}
+{
+  message: 'Jan 09, 2025 1:13:45 PM com.microsoft.java.debug.core.UsageDataSession recordInfo\n' +
+    'INFO: launch debug info\n',
+  level: 'info',
+  timestamp: '2025-01-09 13:13:45.357'
+}
+{
+  message: 'Jan 09, 2025 1:13:45 PM com.microsoft.java.debug.core.UsageDataSession submitUsageData\n' +
+    'INFO: session usage data summary\n',
+  level: 'info',
+  timestamp: '2025-01-09 13:13:45.840'
+}
+{
+  message: 'Jan 09, 2025 1:14:27 PM com.microsoft.java.debug.core.UsageDataSession recordInfo\n' +
+    'INFO: launch debug info\n',
+  level: 'info',
+  timestamp: '2025-01-09 13:14:27.933'
+}
+{
+  message: 'Jan 09, 2025 1:14:28 PM com.microsoft.java.debug.core.UsageDataSession submitUsageData\n' +
+    'INFO: session usage data summary\n',
+  level: 'info',
+  timestamp: '2025-01-09 13:14:28.421'
+}

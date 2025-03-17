@@ -69,3 +69,371 @@
 (N) 2024-12-15T20:56:15 - Saving resume data completed.
 (N) 2024-12-15T20:56:15 - BitTorrent session successfully finished.
 (N) 2024-12-15T20:56:15 - qBittorrent is now ready to exit
+(N) 2025-01-09T15:30:59 - qBittorrent v5.0.3 started. Process ID: 432151
+(N) 2025-01-09T15:30:59 - Using config directory: /home/darth06/.config/qBittorrent
+(N) 2025-01-09T15:30:59 - Trying to listen on the following list of IP addresses: "0.0.0.0:47000,[::]:47000"
+(I) 2025-01-09T15:30:59 - Peer ID: "-qB5030-"
+(I) 2025-01-09T15:30:59 - HTTP User-Agent: "qBittorrent/5.0.3"
+(I) 2025-01-09T15:30:59 - Distributed Hash Table (DHT) support: ON
+(I) 2025-01-09T15:30:59 - Local Peer Discovery support: ON
+(I) 2025-01-09T15:30:59 - Peer Exchange (PeX) support: ON
+(I) 2025-01-09T15:30:59 - Anonymous mode: OFF
+(I) 2025-01-09T15:30:59 - Encryption support: ON
+(I) 2025-01-09T15:30:59 - UPnP/NAT-PMP support: ON
+(I) 2025-01-09T15:30:59 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/47000"
+(I) 2025-01-09T15:30:59 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/47000"
+(I) 2025-01-09T15:30:59 - Successfully listening on IP. IP: "192.168.0.7". Port: "TCP/47000"
+(I) 2025-01-09T15:30:59 - Successfully listening on IP. IP: "192.168.0.7". Port: "UTP/47000"
+(I) 2025-01-09T15:30:59 - Successfully listening on IP. IP: "::1". Port: "TCP/47000"
+(I) 2025-01-09T15:30:59 - Successfully listening on IP. IP: "::1". Port: "UTP/47000"
+(I) 2025-01-09T15:30:59 - Successfully listening on IP. IP: "fe80::8756:dce6:f94f:39c9%enp44s0". Port: "TCP/47000"
+(I) 2025-01-09T15:30:59 - Successfully listening on IP. IP: "fe80::8756:dce6:f94f:39c9%enp44s0". Port: "UTP/47000"
+(I) 2025-01-09T15:30:59 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using NAT-PMP. local: 192.168.0.7 external port: TCP/47000"
+(I) 2025-01-09T15:30:59 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sat Nov 30 23:19:17 2024.
+(N) 2025-01-09T15:30:59 - Power management found suitable D-Bus interface. Interface: org.freedesktop.login1.Manager
+(I) 2025-01-09T15:30:59 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using NAT-PMP. local: 192.168.0.7 external port: UDP/47000"
+(I) 2025-01-09T15:30:59 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using UPnP. local: 192.168.0.7 external port: TCP/47000"
+(I) 2025-01-09T15:30:59 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using UPnP. local: 192.168.0.7 external port: UDP/47000"
+(I) 2025-01-09T15:31:00 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Tue Dec 31 23:22:30 2024.
+(I) 2025-01-09T15:31:00 - Successfully updated IP geolocation database.
+(I) 2025-01-09T15:31:00 - Detected external IP. IP: "187.109.159.107"
+(N) 2025-01-09T15:31:26 - qBittorrent termination initiated
+(N) 2025-01-09T15:31:26 - Saving resume data completed.
+(N) 2025-01-09T15:31:26 - BitTorrent session successfully finished.
+(N) 2025-01-09T15:31:26 - qBittorrent is now ready to exit
+(N) 2025-01-29T11:59:00 - qBittorrent v5.0.3 started. Process ID: 49910
+(N) 2025-01-29T11:59:00 - Using config directory: /home/darth06/.config/qBittorrent
+(N) 2025-01-29T11:59:00 - Trying to listen on the following list of IP addresses: "0.0.0.0:47000,[::]:47000"
+(I) 2025-01-29T11:59:00 - Peer ID: "-qB5030-"
+(I) 2025-01-29T11:59:00 - HTTP User-Agent: "qBittorrent/5.0.3"
+(I) 2025-01-29T11:59:00 - Distributed Hash Table (DHT) support: ON
+(I) 2025-01-29T11:59:00 - Local Peer Discovery support: ON
+(I) 2025-01-29T11:59:00 - Peer Exchange (PeX) support: ON
+(I) 2025-01-29T11:59:00 - Anonymous mode: OFF
+(I) 2025-01-29T11:59:00 - Encryption support: ON
+(I) 2025-01-29T11:59:00 - UPnP/NAT-PMP support: ON
+(I) 2025-01-29T11:59:00 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/47000"
+(I) 2025-01-29T11:59:00 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/47000"
+(I) 2025-01-29T11:59:00 - Successfully listening on IP. IP: "192.168.0.7". Port: "TCP/47000"
+(I) 2025-01-29T11:59:00 - Successfully listening on IP. IP: "192.168.0.7". Port: "UTP/47000"
+(I) 2025-01-29T11:59:00 - Successfully listening on IP. IP: "::1". Port: "TCP/47000"
+(I) 2025-01-29T11:59:00 - Successfully listening on IP. IP: "::1". Port: "UTP/47000"
+(I) 2025-01-29T11:59:00 - Successfully listening on IP. IP: "fe80::7057:5b84:3ee6:1633%wlan0". Port: "TCP/47000"
+(I) 2025-01-29T11:59:00 - Successfully listening on IP. IP: "fe80::7057:5b84:3ee6:1633%wlan0". Port: "UTP/47000"
+(I) 2025-01-29T11:59:00 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using NAT-PMP. local: 192.168.0.7 external port: TCP/47000"
+(I) 2025-01-29T11:59:00 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Tue Dec 31 23:22:30 2024.
+(N) 2025-01-29T11:59:00 - Power management found suitable D-Bus interface. Interface: org.freedesktop.login1.Manager
+(I) 2025-01-29T11:59:00 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using NAT-PMP. local: 192.168.0.7 external port: UDP/47000"
+(I) 2025-01-29T11:59:00 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using UPnP. local: 192.168.0.7 external port: TCP/47000"
+(I) 2025-01-29T11:59:00 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using UPnP. local: 192.168.0.7 external port: UDP/47000"
+(I) 2025-01-29T11:59:00 - Detected external IP. IP: "187.109.145.122"
+(N) 2025-01-29T11:59:25 - Added new torrent. Torrent: "Edward.Mãos.de.Tesoura.REMASTERIZADO.BluRay.1080p.DUAL.5.1"
+(N) 2025-01-29T12:00:25 - qBittorrent v5.0.3 started. Process ID: 59232
+(N) 2025-01-29T12:00:25 - Using config directory: /home/darth06/.config/qBittorrent
+(N) 2025-01-29T12:00:26 - qBittorrent termination initiated
+(N) 2025-01-29T12:00:26 - qBittorrent is now ready to exit
+(N) 2025-01-29T12:00:31 - Added new torrent. Torrent: "EDWARD M&Atilde;OS DE TESOURA (1990) BLURAY 720P  DUBLADO"
+(N) 2025-01-29T12:01:56 - qBittorrent v5.0.3 started. Process ID: 68720
+(N) 2025-01-29T12:01:56 - Using config directory: /home/darth06/.config/qBittorrent
+(N) 2025-01-29T12:01:57 - qBittorrent termination initiated
+(N) 2025-01-29T12:01:57 - qBittorrent is now ready to exit
+(N) 2025-01-29T12:02:03 - Added new torrent. Torrent: "Edward Mãos de Tesoura REMASTER BluRay 1080p DUAL 5.1"
+(N) 2025-01-29T12:34:16 - Torrent download finished. Torrent: "Edward Mãos de Tesoura REMASTER BluRay 1080p DUAL 5.1"
+(N) 2025-01-29T12:34:26 - Torrent removed. Torrent: "Edward Mãos de Tesoura REMASTER BluRay 1080p DUAL 5.1"
+(N) 2025-01-29T12:34:26 - Torrent removed. Torrent: "EDWARD M&Atilde;OS DE TESOURA (1990) BLURAY 720P  DUBLADO"
+(N) 2025-01-29T12:34:26 - Torrent removed. Torrent: "Edward.Mãos.de.Tesoura.REMASTERIZADO.BluRay.1080p.DUAL.5.1"
+(N) 2025-01-29T12:34:27 - qBittorrent termination initiated
+(N) 2025-01-29T12:34:27 - Saving resume data completed.
+(N) 2025-01-29T12:34:28 - BitTorrent session successfully finished.
+(N) 2025-01-29T12:34:28 - qBittorrent is now ready to exit
+(N) 2025-02-05T20:27:42 - qBittorrent v5.0.3 started. Process ID: 1581799
+(N) 2025-02-05T20:27:42 - Using config directory: /home/darth06/.config/qBittorrent
+(N) 2025-02-05T20:27:42 - Trying to listen on the following list of IP addresses: "0.0.0.0:47000,[::]:47000"
+(I) 2025-02-05T20:27:42 - Peer ID: "-qB5030-"
+(I) 2025-02-05T20:27:42 - HTTP User-Agent: "qBittorrent/5.0.3"
+(I) 2025-02-05T20:27:42 - Distributed Hash Table (DHT) support: ON
+(I) 2025-02-05T20:27:42 - Local Peer Discovery support: ON
+(I) 2025-02-05T20:27:42 - Peer Exchange (PeX) support: ON
+(I) 2025-02-05T20:27:42 - Anonymous mode: OFF
+(I) 2025-02-05T20:27:42 - Encryption support: ON
+(I) 2025-02-05T20:27:42 - UPnP/NAT-PMP support: ON
+(I) 2025-02-05T20:27:42 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/47000"
+(I) 2025-02-05T20:27:42 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/47000"
+(I) 2025-02-05T20:27:42 - Successfully listening on IP. IP: "192.168.0.7". Port: "TCP/47000"
+(I) 2025-02-05T20:27:42 - Successfully listening on IP. IP: "192.168.0.7". Port: "UTP/47000"
+(I) 2025-02-05T20:27:42 - Successfully listening on IP. IP: "::1". Port: "TCP/47000"
+(I) 2025-02-05T20:27:42 - Successfully listening on IP. IP: "::1". Port: "UTP/47000"
+(I) 2025-02-05T20:27:42 - Successfully listening on IP. IP: "fe80::8756:dce6:f94f:39c9%enp44s0". Port: "TCP/47000"
+(I) 2025-02-05T20:27:42 - Successfully listening on IP. IP: "fe80::8756:dce6:f94f:39c9%enp44s0". Port: "UTP/47000"
+(I) 2025-02-05T20:27:42 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Tue Dec 31 23:22:30 2024.
+(N) 2025-02-05T20:27:42 - Power management found suitable D-Bus interface. Interface: org.freedesktop.login1.Manager
+(I) 2025-02-05T20:27:42 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using NAT-PMP. local: 192.168.0.7 external port: TCP/47000"
+(I) 2025-02-05T20:27:42 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using NAT-PMP. local: 192.168.0.7 external port: UDP/47000"
+(I) 2025-02-05T20:27:42 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using UPnP. local: 192.168.0.7 external port: TCP/47000"
+(I) 2025-02-05T20:27:42 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using UPnP. local: 192.168.0.7 external port: UDP/47000"
+(I) 2025-02-05T20:27:42 - Detected external IP. IP: "187.109.148.145"
+(I) 2025-02-05T20:27:43 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Fri Jan 31 23:16:56 2025.
+(I) 2025-02-05T20:27:43 - Successfully updated IP geolocation database.
+(N) 2025-02-05T20:27:46 - Added new torrent. Torrent: "Jester - A Morte Sorri 2023 1080p WEB-DL DUAL 5.1"
+(N) 2025-02-05T20:50:09 - Torrent download finished. Torrent: "Jester - A Morte Sorri 2023 1080p WEB-DL DUAL 5.1"
+(N) 2025-02-05T20:50:29 - Torrent removed. Torrent: "Jester - A Morte Sorri 2023 1080p WEB-DL DUAL 5.1"
+(N) 2025-02-05T20:50:30 - qBittorrent termination initiated
+(N) 2025-02-05T20:50:30 - Saving resume data completed.
+(N) 2025-02-05T20:50:30 - BitTorrent session successfully finished.
+(N) 2025-02-05T20:50:30 - qBittorrent is now ready to exit
+(N) 2025-02-08T13:08:45 - qBittorrent v5.0.3 started. Process ID: 956644
+(N) 2025-02-08T13:08:45 - Using config directory: /home/darth06/.config/qBittorrent
+(N) 2025-02-08T13:08:45 - Trying to listen on the following list of IP addresses: "0.0.0.0:47000,[::]:47000"
+(I) 2025-02-08T13:08:45 - Peer ID: "-qB5030-"
+(I) 2025-02-08T13:08:45 - HTTP User-Agent: "qBittorrent/5.0.3"
+(I) 2025-02-08T13:08:45 - Distributed Hash Table (DHT) support: ON
+(I) 2025-02-08T13:08:45 - Local Peer Discovery support: ON
+(I) 2025-02-08T13:08:45 - Peer Exchange (PeX) support: ON
+(I) 2025-02-08T13:08:45 - Anonymous mode: OFF
+(I) 2025-02-08T13:08:45 - Encryption support: ON
+(I) 2025-02-08T13:08:45 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/47000"
+(I) 2025-02-08T13:08:45 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/47000"
+(I) 2025-02-08T13:08:45 - Successfully listening on IP. IP: "192.168.0.7". Port: "TCP/47000"
+(I) 2025-02-08T13:08:45 - Successfully listening on IP. IP: "192.168.0.7". Port: "UTP/47000"
+(I) 2025-02-08T13:08:45 - Successfully listening on IP. IP: "::1". Port: "TCP/47000"
+(I) 2025-02-08T13:08:45 - Successfully listening on IP. IP: "::1". Port: "UTP/47000"
+(I) 2025-02-08T13:08:45 - Successfully listening on IP. IP: "fe80::8756:dce6:f94f:39c9%enp44s0". Port: "TCP/47000"
+(I) 2025-02-08T13:08:45 - Successfully listening on IP. IP: "fe80::8756:dce6:f94f:39c9%enp44s0". Port: "UTP/47000"
+(I) 2025-02-08T13:08:45 - UPnP/NAT-PMP support: ON
+(I) 2025-02-08T13:08:45 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Fri Jan 31 23:16:56 2025.
+(N) 2025-02-08T13:08:45 - Power management found suitable D-Bus interface. Interface: org.freedesktop.login1.Manager
+(I) 2025-02-08T13:08:45 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using NAT-PMP. local: 192.168.0.7 external port: TCP/47000"
+(I) 2025-02-08T13:08:45 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using NAT-PMP. local: 192.168.0.7 external port: UDP/47000"
+(I) 2025-02-08T13:08:45 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using UPnP. local: 192.168.0.7 external port: TCP/47000"
+(I) 2025-02-08T13:08:45 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using UPnP. local: 192.168.0.7 external port: UDP/47000"
+(I) 2025-02-08T13:08:47 - Detected external IP. IP: "187.109.157.198"
+(N) 2025-02-08T13:08:53 - Added new torrent. Torrent: "[Rec] 2007 (1080p) ACESSE COMANDO4KFILMES.COM"
+(N) 2025-02-08T13:17:24 - Torrent download finished. Torrent: "[Rec] 2007 (1080p) ACESSE COMANDO4KFILMES.COM"
+(N) 2025-02-08T13:18:03 - Torrent removed. Torrent: "[Rec] 2007 (1080p) ACESSE COMANDO4KFILMES.COM"
+(N) 2025-02-08T13:27:20 - qBittorrent termination initiated
+(N) 2025-02-08T13:27:20 - Saving resume data completed.
+(N) 2025-02-08T13:27:20 - BitTorrent session successfully finished.
+(N) 2025-02-08T13:27:20 - qBittorrent is now ready to exit
+(N) 2025-02-13T14:14:44 - qBittorrent v5.0.3 started. Process ID: 26191
+(N) 2025-02-13T14:14:44 - Using config directory: /home/darth06/.config/qBittorrent
+(N) 2025-02-13T14:14:44 - Trying to listen on the following list of IP addresses: "0.0.0.0:47000,[::]:47000"
+(I) 2025-02-13T14:14:44 - Peer ID: "-qB5030-"
+(I) 2025-02-13T14:14:44 - HTTP User-Agent: "qBittorrent/5.0.3"
+(I) 2025-02-13T14:14:44 - Distributed Hash Table (DHT) support: ON
+(I) 2025-02-13T14:14:44 - Local Peer Discovery support: ON
+(I) 2025-02-13T14:14:44 - Peer Exchange (PeX) support: ON
+(I) 2025-02-13T14:14:44 - Anonymous mode: OFF
+(I) 2025-02-13T14:14:44 - Encryption support: ON
+(I) 2025-02-13T14:14:44 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/47000"
+(I) 2025-02-13T14:14:44 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/47000"
+(I) 2025-02-13T14:14:44 - Successfully listening on IP. IP: "192.168.0.7". Port: "TCP/47000"
+(I) 2025-02-13T14:14:44 - Successfully listening on IP. IP: "192.168.0.7". Port: "UTP/47000"
+(I) 2025-02-13T14:14:44 - Successfully listening on IP. IP: "::1". Port: "TCP/47000"
+(I) 2025-02-13T14:14:44 - Successfully listening on IP. IP: "::1". Port: "UTP/47000"
+(I) 2025-02-13T14:14:44 - Successfully listening on IP. IP: "fe80::8756:dce6:f94f:39c9%enp44s0". Port: "TCP/47000"
+(I) 2025-02-13T14:14:44 - Successfully listening on IP. IP: "fe80::8756:dce6:f94f:39c9%enp44s0". Port: "UTP/47000"
+(I) 2025-02-13T14:14:44 - UPnP/NAT-PMP support: ON
+(I) 2025-02-13T14:14:44 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Fri Jan 31 23:16:56 2025.
+(N) 2025-02-13T14:14:44 - Power management found suitable D-Bus interface. Interface: org.freedesktop.login1.Manager
+(I) 2025-02-13T14:14:44 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using NAT-PMP. local: 192.168.0.7 external port: TCP/47000"
+(I) 2025-02-13T14:14:44 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using NAT-PMP. local: 192.168.0.7 external port: UDP/47000"
+(I) 2025-02-13T14:14:44 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using UPnP. local: 192.168.0.7 external port: TCP/47000"
+(I) 2025-02-13T14:14:44 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using UPnP. local: 192.168.0.7 external port: UDP/47000"
+(I) 2025-02-13T14:14:44 - Detected external IP. IP: "187.109.154.237"
+(N) 2025-02-13T14:16:58 - Added new torrent. Torrent: "cd55bbd9be57bcd52b57a5654ec97e4fa4873ecf"
+(N) 2025-02-13T14:17:35 - qBittorrent v5.0.3 started. Process ID: 43786
+(N) 2025-02-13T14:17:35 - Using config directory: /home/darth06/.config/qBittorrent
+(N) 2025-02-13T14:17:35 - qBittorrent termination initiated
+(N) 2025-02-13T14:17:35 - qBittorrent is now ready to exit
+(N) 2025-02-13T14:17:39 - Added new torrent. Torrent: "Homem-Aranha 2 2004 [1080p] WWW.BLUDV.COM"
+(N) 2025-02-13T14:18:15 - qBittorrent v5.0.3 started. Process ID: 47908
+(N) 2025-02-13T14:18:15 - Using config directory: /home/darth06/.config/qBittorrent
+(N) 2025-02-13T14:18:15 - qBittorrent termination initiated
+(N) 2025-02-13T14:18:15 - qBittorrent is now ready to exit
+(N) 2025-02-13T14:19:00 - qBittorrent v5.0.3 started. Process ID: 52690
+(N) 2025-02-13T14:19:00 - Using config directory: /home/darth06/.config/qBittorrent
+(N) 2025-02-13T14:19:01 - qBittorrent termination initiated
+(N) 2025-02-13T14:19:01 - qBittorrent is now ready to exit
+(N) 2025-02-13T14:19:06 - Added new torrent. Torrent: "c3ee8d53c31a6c911a1cda7418f258cd09254e19"
+(N) 2025-02-13T14:19:26 - qBittorrent v5.0.3 started. Process ID: 55425
+(N) 2025-02-13T14:19:26 - Using config directory: /home/darth06/.config/qBittorrent
+(N) 2025-02-13T14:19:27 - qBittorrent termination initiated
+(N) 2025-02-13T14:19:27 - qBittorrent is now ready to exit
+(N) 2025-02-13T14:19:31 - Added new torrent. Torrent: "Homem-Aranha 3 2007 [1080p] WWW.BLUDV.COM"
+(N) 2025-02-13T14:19:47 - Torrent removed. Torrent: "c3ee8d53c31a6c911a1cda7418f258cd09254e19"
+(N) 2025-02-13T14:20:26 - qBittorrent v5.0.3 started. Process ID: 61758
+(N) 2025-02-13T14:20:26 - Using config directory: /home/darth06/.config/qBittorrent
+(N) 2025-02-13T14:20:26 - qBittorrent termination initiated
+(N) 2025-02-13T14:20:26 - qBittorrent is now ready to exit
+(N) 2025-02-13T14:23:27 - qBittorrent v5.0.3 started. Process ID: 80804
+(N) 2025-02-13T14:23:27 - Using config directory: /home/darth06/.config/qBittorrent
+(N) 2025-02-13T14:23:27 - qBittorrent termination initiated
+(N) 2025-02-13T14:23:27 - qBittorrent is now ready to exit
+(N) 2025-02-13T14:24:24 - qBittorrent v5.0.3 started. Process ID: 86965
+(N) 2025-02-13T14:24:24 - Using config directory: /home/darth06/.config/qBittorrent
+(N) 2025-02-13T14:24:24 - qBittorrent termination initiated
+(N) 2025-02-13T14:24:24 - qBittorrent is now ready to exit
+(N) 2025-02-13T14:24:45 - Added new torrent. Torrent: "TRILOGIA.Homem-Aranha.1080p-RICKSZ"
+(N) 2025-02-13T14:25:14 - qBittorrent v5.0.3 started. Process ID: 91961
+(N) 2025-02-13T14:25:14 - Using config directory: /home/darth06/.config/qBittorrent
+(N) 2025-02-13T14:25:14 - qBittorrent termination initiated
+(N) 2025-02-13T14:25:14 - qBittorrent is now ready to exit
+(N) 2025-02-13T14:25:40 - qBittorrent v5.0.3 started. Process ID: 94672
+(N) 2025-02-13T14:25:40 - Using config directory: /home/darth06/.config/qBittorrent
+(N) 2025-02-13T14:25:40 - qBittorrent termination initiated
+(N) 2025-02-13T14:25:40 - qBittorrent is now ready to exit
+(N) 2025-02-13T14:25:49 - Added new torrent. Torrent: "O.Espetacular.Homem.Aranha.2.2014.1080p.Dual-WOLVERDONFILMES.COM"
+(N) 2025-02-13T14:26:44 - qBittorrent v5.0.3 started. Process ID: 101299
+(N) 2025-02-13T14:26:44 - Using config directory: /home/darth06/.config/qBittorrent
+(N) 2025-02-13T14:26:44 - qBittorrent termination initiated
+(N) 2025-02-13T14:26:44 - qBittorrent is now ready to exit
+(N) 2025-02-13T14:26:52 - Added new torrent. Torrent: "O Espetacular Homem-Aranha 2012 [1080p] WWWW.BLUDV.COM"
+(I) 2025-02-13T14:59:44 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using NAT-PMP. local: 192.168.0.7 external port: TCP/47000"
+(I) 2025-02-13T14:59:44 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using NAT-PMP. local: 192.168.0.7 external port: UDP/47000"
+(N) 2025-02-13T15:06:50 - Torrent download finished. Torrent: "O.Espetacular.Homem.Aranha.2.2014.1080p.Dual-WOLVERDONFILMES.COM"
+(N) 2025-02-13T15:14:20 - Torrent download finished. Torrent: "Homem-Aranha 2 2004 [1080p] WWW.BLUDV.COM"
+(N) 2025-02-13T15:23:41 - Torrent download finished. Torrent: "TRILOGIA.Homem-Aranha.1080p-RICKSZ"
+(N) 2025-02-13T15:24:38 - Torrent download finished. Torrent: "O Espetacular Homem-Aranha 2012 [1080p] WWWW.BLUDV.COM"
+(N) 2025-02-13T15:30:37 - Torrent removed. Torrent: "Homem-Aranha 3 2007 [1080p] WWW.BLUDV.COM"
+(N) 2025-02-13T15:30:38 - Torrent content removed. Torrent: "Homem-Aranha 3 2007 [1080p] WWW.BLUDV.COM"
+(N) 2025-02-13T15:35:31 - Torrent removed. Torrent: "Homem-Aranha 2 2004 [1080p] WWW.BLUDV.COM"
+(N) 2025-02-13T15:35:31 - Torrent content removed. Torrent: "Homem-Aranha 2 2004 [1080p] WWW.BLUDV.COM"
+(I) 2025-02-13T15:44:44 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using NAT-PMP. local: 192.168.0.7 external port: TCP/47000"
+(I) 2025-02-13T15:44:44 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using NAT-PMP. local: 192.168.0.7 external port: UDP/47000"
+(N) 2025-02-13T16:15:24 - Torrent removed. Torrent: "TRILOGIA.Homem-Aranha.1080p-RICKSZ"
+(N) 2025-02-13T16:15:24 - Torrent content removed. Torrent: "TRILOGIA.Homem-Aranha.1080p-RICKSZ"
+(N) 2025-02-13T16:15:43 - Torrent removed. Torrent: "Homem.Aranha.1.2002.REMASTERED.FULLSCREEN.1080p.BluRay.H264.AC3.5.1.DUAL-MLD-BLUDV"
+(N) 2025-02-13T16:15:43 - Torrent content removed. Torrent: "Homem.Aranha.1.2002.REMASTERED.FULLSCREEN.1080p.BluRay.H264.AC3.5.1.DUAL-MLD-BLUDV"
+(I) 2025-02-13T16:29:44 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using NAT-PMP. local: 192.168.0.7 external port: TCP/47000"
+(I) 2025-02-13T16:29:44 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using NAT-PMP. local: 192.168.0.7 external port: UDP/47000"
+(N) 2025-02-13T16:33:25 - Torrent removed. Torrent: "O Espetacular Homem-Aranha 2012 [1080p] WWWW.BLUDV.COM"
+(N) 2025-02-13T16:33:25 - Torrent removed. Torrent: "O.Espetacular.Homem.Aranha.2.2014.1080p.Dual-WOLVERDONFILMES.COM"
+(N) 2025-02-13T16:33:25 - Torrent content removed. Torrent: "O Espetacular Homem-Aranha 2012 [1080p] WWWW.BLUDV.COM"
+(N) 2025-02-13T16:33:25 - Torrent content removed. Torrent: "O.Espetacular.Homem.Aranha.2.2014.1080p.Dual-WOLVERDONFILMES.COM"
+(N) 2025-02-13T16:34:53 - qBittorrent v5.0.3 started. Process ID: 884718
+(N) 2025-02-13T16:34:53 - Using config directory: /home/darth06/.config/qBittorrent
+(N) 2025-02-13T16:34:53 - qBittorrent termination initiated
+(N) 2025-02-13T16:34:53 - qBittorrent is now ready to exit
+(I) 2025-02-13T17:14:43 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using NAT-PMP. local: 192.168.0.7 external port: TCP/47000"
+(I) 2025-02-13T17:14:44 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using NAT-PMP. local: 192.168.0.7 external port: UDP/47000"
+(N) 2025-02-13T17:26:45 - qBittorrent termination initiated
+(N) 2025-02-13T17:26:45 - Saving resume data completed.
+(N) 2025-02-13T17:26:45 - BitTorrent session successfully finished.
+(N) 2025-02-13T17:26:45 - qBittorrent is now ready to exit
+(N) 2025-02-14T07:50:53 - qBittorrent v5.0.3 started. Process ID: 25877
+(N) 2025-02-14T07:50:53 - Using config directory: /home/darth06/.config/qBittorrent
+(N) 2025-02-14T07:50:53 - Trying to listen on the following list of IP addresses: "0.0.0.0:47000,[::]:47000"
+(I) 2025-02-14T07:50:53 - Peer ID: "-qB5030-"
+(I) 2025-02-14T07:50:53 - HTTP User-Agent: "qBittorrent/5.0.3"
+(I) 2025-02-14T07:50:53 - Distributed Hash Table (DHT) support: ON
+(I) 2025-02-14T07:50:53 - Local Peer Discovery support: ON
+(I) 2025-02-14T07:50:53 - Peer Exchange (PeX) support: ON
+(I) 2025-02-14T07:50:53 - Anonymous mode: OFF
+(I) 2025-02-14T07:50:53 - Encryption support: ON
+(C) 2025-02-14T07:50:53 - Failed to listen on IP. IP: "192.168.0.7". Port: "TCP/47000". Reason: "Address already in use"
+(I) 2025-02-14T07:50:53 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/47000"
+(I) 2025-02-14T07:50:53 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/47000"
+(I) 2025-02-14T07:50:53 - Successfully listening on IP. IP: "::1". Port: "TCP/47000"
+(I) 2025-02-14T07:50:53 - Successfully listening on IP. IP: "::1". Port: "UTP/47000"
+(I) 2025-02-14T07:50:53 - Successfully listening on IP. IP: "fe80::8756:dce6:f94f:39c9%enp44s0". Port: "TCP/47000"
+(I) 2025-02-14T07:50:53 - Successfully listening on IP. IP: "fe80::8756:dce6:f94f:39c9%enp44s0". Port: "UTP/47000"
+(I) 2025-02-14T07:50:53 - UPnP/NAT-PMP support: ON
+(I) 2025-02-14T07:50:53 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Fri Jan 31 23:16:56 2025.
+(N) 2025-02-14T07:50:53 - Power management found suitable D-Bus interface. Interface: org.freedesktop.login1.Manager
+(N) 2025-02-14T07:53:19 - qBittorrent v5.0.3 started. Process ID: 41604
+(N) 2025-02-14T07:53:19 - Using config directory: /home/darth06/.config/qBittorrent
+(N) 2025-02-14T07:53:19 - qBittorrent termination initiated
+(N) 2025-02-14T07:53:19 - qBittorrent is now ready to exit
+(N) 2025-02-14T07:53:38 - Added new torrent. Torrent: "Cobra.Kai.S06.PARTE.03-FINAL.1080p.WEB-DL.DUAL.5.1"
+(N) 2025-02-14T07:54:14 - qBittorrent v5.0.3 started. Process ID: 47401
+(N) 2025-02-14T07:54:14 - Using config directory: /home/darth06/.config/qBittorrent
+(N) 2025-02-14T07:54:15 - qBittorrent termination initiated
+(N) 2025-02-14T07:54:15 - qBittorrent is now ready to exit
+(N) 2025-02-14T07:56:23 - Torrent removed. Torrent: "Cobra.Kai.S06.PARTE.03-FINAL.1080p.WEB-DL.DUAL.5.1"
+(N) 2025-02-14T07:56:33 - qBittorrent v5.0.3 started. Process ID: 61336
+(N) 2025-02-14T07:56:33 - Using config directory: /home/darth06/.config/qBittorrent
+(N) 2025-02-14T07:56:34 - qBittorrent termination initiated
+(N) 2025-02-14T07:56:34 - qBittorrent is now ready to exit
+(N) 2025-02-14T07:56:39 - Added new torrent. Torrent: "Cobra.Kai.S06.PARTE.03-FINAL.1080p.WEB-DL.DUAL.5.1"
+(N) 2025-02-14T07:57:58 - qBittorrent v5.0.3 started. Process ID: 70291
+(N) 2025-02-14T07:57:58 - Using config directory: /home/darth06/.config/qBittorrent
+(N) 2025-02-14T07:57:59 - qBittorrent termination initiated
+(N) 2025-02-14T07:57:59 - qBittorrent is now ready to exit
+(N) 2025-02-14T07:58:18 - Added new torrent. Torrent: "Cobra Kai S06 2024 WEB-DL 1080p x264 DUAL 5.1"
+(N) 2025-02-14T09:59:13 - qBittorrent termination initiated
+(N) 2025-02-14T09:59:13 - Saving resume data completed.
+(N) 2025-02-14T09:59:13 - BitTorrent session successfully finished.
+(N) 2025-02-14T09:59:13 - qBittorrent is now ready to exit
+(N) 2025-02-14T09:59:15 - qBittorrent v5.0.3 started. Process ID: 799655
+(N) 2025-02-14T09:59:15 - Using config directory: /home/darth06/.config/qBittorrent
+(N) 2025-02-14T09:59:15 - Trying to listen on the following list of IP addresses: "0.0.0.0:47000,[::]:47000"
+(I) 2025-02-14T09:59:15 - Peer ID: "-qB5030-"
+(I) 2025-02-14T09:59:15 - HTTP User-Agent: "qBittorrent/5.0.3"
+(I) 2025-02-14T09:59:15 - Distributed Hash Table (DHT) support: ON
+(I) 2025-02-14T09:59:15 - Local Peer Discovery support: ON
+(I) 2025-02-14T09:59:15 - Peer Exchange (PeX) support: ON
+(I) 2025-02-14T09:59:15 - Anonymous mode: OFF
+(I) 2025-02-14T09:59:15 - Encryption support: ON
+(I) 2025-02-14T09:59:15 - UPnP/NAT-PMP support: ON
+(I) 2025-02-14T09:59:15 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/47000"
+(I) 2025-02-14T09:59:15 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/47000"
+(I) 2025-02-14T09:59:15 - Successfully listening on IP. IP: "192.168.0.7". Port: "TCP/47000"
+(I) 2025-02-14T09:59:15 - Successfully listening on IP. IP: "192.168.0.7". Port: "UTP/47000"
+(I) 2025-02-14T09:59:15 - Successfully listening on IP. IP: "::1". Port: "TCP/47000"
+(I) 2025-02-14T09:59:15 - Successfully listening on IP. IP: "::1". Port: "UTP/47000"
+(I) 2025-02-14T09:59:15 - Successfully listening on IP. IP: "fe80::8756:dce6:f94f:39c9%enp44s0". Port: "TCP/47000"
+(I) 2025-02-14T09:59:15 - Successfully listening on IP. IP: "fe80::8756:dce6:f94f:39c9%enp44s0". Port: "UTP/47000"
+(N) 2025-02-14T09:59:15 - Restored torrent. Torrent: "Cobra.Kai.S06.PARTE.03-FINAL.1080p.WEB-DL.DUAL.5.1"
+(N) 2025-02-14T09:59:15 - Restored torrent. Torrent: "Cobra Kai S06 2024 WEB-DL 1080p x264 DUAL 5.1"
+(I) 2025-02-14T09:59:15 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Fri Jan 31 23:16:56 2025.
+(N) 2025-02-14T09:59:15 - Power management found suitable D-Bus interface. Interface: org.freedesktop.login1.Manager
+(I) 2025-02-14T09:59:15 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using NAT-PMP. local: 192.168.0.7 external port: TCP/47000"
+(I) 2025-02-14T09:59:15 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using NAT-PMP. local: 192.168.0.7 external port: UDP/47000"
+(I) 2025-02-14T09:59:15 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using UPnP. local: 192.168.0.7 external port: TCP/47000"
+(I) 2025-02-14T09:59:15 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using UPnP. local: 192.168.0.7 external port: UDP/47000"
+(I) 2025-02-14T09:59:21 - Detected external IP. IP: "187.109.145.133"
+(N) 2025-02-14T09:59:43 - Torrent removed. Torrent: "Cobra Kai S06 2024 WEB-DL 1080p x264 DUAL 5.1"
+(N) 2025-02-14T09:59:43 - Torrent removed. Torrent: "Cobra.Kai.S06.PARTE.03-FINAL.1080p.WEB-DL.DUAL.5.1"
+(N) 2025-02-14T09:59:43 - Torrent content removed. Torrent: "Cobra.Kai.S06.PARTE.03-FINAL.1080p.WEB-DL.DUAL.5.1"
+(N) 2025-02-14T09:59:48 - qBittorrent termination initiated
+(N) 2025-02-14T09:59:48 - Saving resume data completed.
+(N) 2025-02-14T09:59:49 - BitTorrent session successfully finished.
+(N) 2025-02-14T09:59:49 - qBittorrent is now ready to exit
+(N) 2025-02-14T10:00:10 - qBittorrent v5.0.3 started. Process ID: 805251
+(N) 2025-02-14T10:00:10 - Using config directory: /home/darth06/.config/qBittorrent
+(N) 2025-02-14T10:00:10 - Trying to listen on the following list of IP addresses: "0.0.0.0:47000,[::]:47000"
+(I) 2025-02-14T10:00:10 - Peer ID: "-qB5030-"
+(I) 2025-02-14T10:00:10 - HTTP User-Agent: "qBittorrent/5.0.3"
+(I) 2025-02-14T10:00:10 - Distributed Hash Table (DHT) support: ON
+(I) 2025-02-14T10:00:10 - Local Peer Discovery support: ON
+(I) 2025-02-14T10:00:10 - Peer Exchange (PeX) support: ON
+(I) 2025-02-14T10:00:10 - Anonymous mode: OFF
+(I) 2025-02-14T10:00:10 - Encryption support: ON
+(I) 2025-02-14T10:00:10 - UPnP/NAT-PMP support: ON
+(I) 2025-02-14T10:00:10 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/47000"
+(I) 2025-02-14T10:00:10 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/47000"
+(I) 2025-02-14T10:00:10 - Successfully listening on IP. IP: "192.168.0.7". Port: "TCP/47000"
+(I) 2025-02-14T10:00:10 - Successfully listening on IP. IP: "192.168.0.7". Port: "UTP/47000"
+(I) 2025-02-14T10:00:10 - Successfully listening on IP. IP: "::1". Port: "TCP/47000"
+(I) 2025-02-14T10:00:10 - Successfully listening on IP. IP: "::1". Port: "UTP/47000"
+(I) 2025-02-14T10:00:10 - Successfully listening on IP. IP: "fe80::8756:dce6:f94f:39c9%enp44s0". Port: "TCP/47000"
+(I) 2025-02-14T10:00:10 - Successfully listening on IP. IP: "fe80::8756:dce6:f94f:39c9%enp44s0". Port: "UTP/47000"
+(I) 2025-02-14T10:00:10 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Fri Jan 31 23:16:56 2025.
+(N) 2025-02-14T10:00:10 - Power management found suitable D-Bus interface. Interface: org.freedesktop.login1.Manager
+(I) 2025-02-14T10:00:10 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using NAT-PMP. local: 192.168.0.7 external port: TCP/47000"
+(I) 2025-02-14T10:00:10 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using NAT-PMP. local: 192.168.0.7 external port: UDP/47000"
+(I) 2025-02-14T10:00:10 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using UPnP. local: 192.168.0.7 external port: TCP/47000"
+(I) 2025-02-14T10:00:11 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using UPnP. local: 192.168.0.7 external port: UDP/47000"
+(I) 2025-02-14T10:00:15 - Detected external IP. IP: "187.109.145.133"
+(N) 2025-02-14T10:00:19 - Added new torrent. Torrent: "Cobra.Kai.S06.PARTE.03-FINAL.1080p.WEB-DL.DUAL.5.1"
+(N) 2025-02-14T10:01:57 - qBittorrent v5.0.3 started. Process ID: 816362
+(N) 2025-02-14T10:01:57 - Using config directory: /home/darth06/.config/qBittorrent
+(N) 2025-02-14T10:01:57 - qBittorrent termination initiated
+(N) 2025-02-14T10:01:57 - qBittorrent is now ready to exit
+(N) 2025-02-14T10:34:41 - Torrent download finished. Torrent: "Cobra.Kai.S06.PARTE.03-FINAL.1080p.WEB-DL.DUAL.5.1"
+(I) 2025-02-14T10:45:10 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using NAT-PMP. local: 192.168.0.7 external port: TCP/47000"
+(I) 2025-02-14T10:45:13 - UPnP/NAT-PMP port mapping succeeded. Message: "successfully mapped port using NAT-PMP. local: 192.168.0.7 external port: UDP/47000"
+(N) 2025-02-14T10:58:21 - qBittorrent termination initiated
+(N) 2025-02-14T10:58:21 - Saving resume data completed.
+(N) 2025-02-14T10:58:21 - BitTorrent session successfully finished.
+(N) 2025-02-14T10:58:21 - qBittorrent is now ready to exit

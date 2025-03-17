@@ -1,0 +1,24 @@
+2025-01-09 13:03:22.992 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-09 13:03:23.002 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-09 13:03:23.002 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-09 13:03:23.175 [info] Started local extension host with pid 573334.
+2025-01-09 13:03:23.223 [info] Started initializing default profile extensions in extensions installation folder. file:///home/darth06/.vscode-oss/extensions
+2025-01-09 13:03:23.400 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/darth06/.vscode-oss/extensions
+2025-01-09 13:03:26.034 [info] [perf] Render performance baseline is 22ms
+2025-01-09 13:03:28.755 [error] Timed out waiting for authentication provider to register
+2025-01-09 13:03:41.486 [error] [network] #1: https://open-vsx.org/vscode/gallery/extensionquery - error POST Canceled
+2025-01-09 13:04:49.311 [error] [network] #13: https://open-vsx.org/vscode/gallery/extensionquery - error POST Canceled
+2025-01-09 13:07:28.782 [error] [network] #41: https://open-vsx.org/vscode/gallery/extensionquery - error POST Canceled
+2025-01-09 13:08:03.767 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-01-09 13:08:18.468 [error] TreeError [SettingsTree] Tree element not found: [object Object]: Error: TreeError [SettingsTree] Tree element not found: [object Object]
+    at Gus.getElementLocation (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:415:10063)
+    at Gus.rerender (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:415:8162)
+    at T3e.rerender (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:415:17942)
+    at Eb.refreshSingleElement (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1354:68095)
+    at Eb.renderTree (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1354:67879)
+    at vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1354:66952
+    at Set.forEach (<anonymous>)
+    at Eb.updateElementsByKey (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1354:66936)
+    at oee.value (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1354:44685)
+    at E._deliver (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:30:924)
+2025-01-09 13:08:19.158 [warning] Settings pattern "issueReporter.*" doesn't match any settings

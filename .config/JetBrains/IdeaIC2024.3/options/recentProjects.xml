@@ -1,0 +1,117 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/NetBeansProjects">
+          <value>
+            <RecentProjectMetaInfo frameTitle="NetBeansProjects – Aula02.java [Aula02]" projectWorkspaceId="2rOeaPhZHZQYySkIGjfvpivKrR0">
+              <option name="activationTimestamp" value="1736447311051" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-243.22562.218" />
+              <option name="buildTimestamp" value="1735896480000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="1" />
+              </option>
+              <frame x="0" y="17" width="1920" height="1063" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1736447294002" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/Aula03">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Aula03 – Main.java" projectWorkspaceId="2rP7n6jyZS2d7sILr6S84i3df64">
+              <option name="activationTimestamp" value="1736538911371" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-243.22562.218" />
+              <option name="buildTimestamp" value="1735896480000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="3" />
+              </option>
+              <frame x="0" y="17" width="1920" height="1063" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1736449020419" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/Aula04">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Aula04 – Main.java" projectWorkspaceId="2rS4BOYRK78XiaCossq9UBunKpU">
+              <option name="activationTimestamp" value="1736548483311" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-243.22562.218" />
+              <option name="buildTimestamp" value="1735896480000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="4" />
+              </option>
+              <frame x="0" y="17" width="1920" height="1063" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1736539006184" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/ContaBanco">
+          <value>
+            <RecentProjectMetaInfo frameTitle="ContaBanco – Main.java" projectWorkspaceId="2rSZKwl1dcWrEe32AA0qk1U8uy8">
+              <option name="activationTimestamp" value="1736561314123" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-243.22562.218" />
+              <option name="buildTimestamp" value="1735896480000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="5" />
+              </option>
+              <frame x="0" y="17" width="1920" height="1063" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1736554376441" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/UltraEmojiCombat">
+          <value>
+            <RecentProjectMetaInfo frameTitle="UltraEmojiCombat – Main.java" projectWorkspaceId="2rXzdmz3yQwqr5ziPtYdPjk3lu8">
+              <option name="activationTimestamp" value="1737246954035" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-243.22562.218" />
+              <option name="buildTimestamp" value="1735896480000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="7" />
+              </option>
+              <frame x="0" y="17" width="1920" height="1063" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1736720297166" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$APPLICATION_CONFIG_DIR$/light-edit">
+          <value>
+            <RecentProjectMetaInfo frameTitle="IntelliJ IDEA" projectWorkspaceId="2sxQsdzycwQEbSq8nJogFrtD5NI">
+              <option name="activationTimestamp" value="1739394958931" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="8" />
+              </option>
+              <frame x="0" y="17" width="1920" height="1063" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/Aula06">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="2rXmKM9WPqThjD2YFgp19P8kOc9">
+              <option name="activationTimestamp" value="1739396315879" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-243.23654.189" />
+              <option name="buildTimestamp" value="1738404000000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="6" />
+              </option>
+              <frame x="0" y="17" width="1920" height="1063" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1739396265896" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/IdeaProjects/Aula06" />
+    <option name="lastProjectLocation" value="$USER_HOME$/IdeaProjects" />
+  </component>
+</application>

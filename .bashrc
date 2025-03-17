@@ -6,7 +6,7 @@
 [[ $- != *i* ]] && return
 
 #aliases
-#alias ls='ls --color=auto'
+alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias rm='trash'
 alias xcfg='vim ~/.config/xmonad/xmonad.hs'
@@ -22,7 +22,7 @@ alias downms='yt-dlp -x --audio-format mp3 --audio-quality 0'
 alias downml='yt-dlp -x --audio-format mp3 --audio-quality 128k'
 alias downvd='yt-dlp -vU -S vcodec:h264,res:1080,acodec:m4a'
 alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
-alias ls='exa --icons'
+#alias ls='exa --icons'
 alias bat='bat --style=auto'
 alias update='yay -Syyuu && yay -Scc && paccache -r'
 alias uninstall='yay -Rnsu'

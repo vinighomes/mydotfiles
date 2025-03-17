@@ -1,0 +1,367 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$Cut">
+      <i c="1" l="1736443453124" />
+    </e>
+    <e n="$Delete">
+      <i c="2" l="1736447199286" />
+    </e>
+    <e n="$Paste">
+      <i c="1" l="1736443458024" />
+    </e>
+    <e n="$SelectAll">
+      <i c="7" l="1736720284058" />
+    </e>
+    <e n="$Undo">
+      <i c="38" l="1737245363033" />
+    </e>
+    <e n="ActivateBookmarksToolWindow">
+      <i c="7" l="1736452070036" />
+    </e>
+    <e n="ActivateProblemsViewToolWindow">
+      <i c="14" l="1736714593450" />
+    </e>
+    <e n="ActivateProjectToolWindow">
+      <i c="3" l="1736449803773" />
+    </e>
+    <e n="ActivateRunToolWindow">
+      <i c="23" l="1736554739593" />
+    </e>
+    <e n="ActivateTerminalToolWindow">
+      <i c="1" l="1736442270251" />
+    </e>
+    <e n="Annotate">
+      <i c="1" l="1736445702770" />
+    </e>
+    <e n="BraceOrQuoteOut">
+      <i c="5" l="1737245137945" />
+    </e>
+    <e n="ChangeLaf">
+      <i c="4" l="1739394874521" />
+    </e>
+    <e n="CloseProject">
+      <i c="7" l="1739394745675" />
+    </e>
+    <e n="CommentByLineComment">
+      <i c="1" l="1737246777244" />
+    </e>
+    <e n="CreateResourceBundle">
+      <i c="1" l="1736443528858" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="1747" l="1737246838390" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="44" l="1737245898816" />
+    </e>
+    <e n="EditorChooseLookupItemReplace">
+      <i c="320" l="1737246432684" />
+    </e>
+    <e n="EditorCopy">
+      <i c="3" l="1737245374299" />
+    </e>
+    <e n="EditorCut">
+      <i c="8" l="1736561043961" />
+    </e>
+    <e n="EditorDeleteLine">
+      <i c="9" l="1736723103435" />
+    </e>
+    <e n="EditorDeleteToWordStart">
+      <i c="464" l="1737246281101" />
+    </e>
+    <e n="EditorDown">
+      <i c="162" l="1737246279791" />
+    </e>
+    <e n="EditorEnter">
+      <i c="413" l="1737246811776" />
+    </e>
+    <e n="EditorEscape">
+      <i c="2" l="1736560802011" />
+    </e>
+    <e n="EditorLeft">
+      <i c="214" l="1737245478955" />
+    </e>
+    <e n="EditorNextWord">
+      <i c="72" l="1737244592746" />
+    </e>
+    <e n="EditorNextWordWithSelection">
+      <i c="6" l="1736556928258" />
+    </e>
+    <e n="EditorPaste">
+      <i c="13" l="1737245378300" />
+    </e>
+    <e n="EditorPreviousWord">
+      <i c="44" l="1737244591892" />
+    </e>
+    <e n="EditorPreviousWordWithSelection">
+      <i c="23" l="1736720285568" />
+    </e>
+    <e n="EditorRight">
+      <i c="393" l="1737246830398" />
+    </e>
+    <e n="EditorRightWithSelection">
+      <i c="1" l="1736450603931" />
+    </e>
+    <e n="EditorScrollDown">
+      <i c="1" l="1736723102727" />
+    </e>
+    <e n="EditorSplitLine">
+      <i c="2" l="1737245360995" />
+    </e>
+    <e n="EditorStartNewLine">
+      <i c="6" l="1736720559617" />
+    </e>
+    <e n="EditorTab">
+      <i c="53" l="1737245608011" />
+    </e>
+    <e n="EditorTabsEntryPoint">
+      <i c="1" l="1736452075341" />
+    </e>
+    <e n="EditorUp">
+      <i c="51" l="1737245414261" />
+    </e>
+    <e n="ExpandRegion">
+      <i c="2" l="1737245684111" />
+    </e>
+    <e n="FindNext">
+      <i c="1" l="1736450373388" />
+    </e>
+    <e n="Floating.CodeToolbar.Extract">
+      <i c="1" l="1736723079529" />
+    </e>
+    <e n="Floating.CodeToolbar.Surround">
+      <i c="3" l="1737246776055" />
+    </e>
+    <e n="Generate">
+      <i c="15" l="1737244667836" />
+    </e>
+    <e n="GenerateConstructor">
+      <i c="6" l="1736720784362" />
+    </e>
+    <e n="GenerateGetterAndSetter">
+      <i c="7" l="1737244670246" />
+    </e>
+    <e n="GotoDeclaration">
+      <i c="1" l="1736555615022" />
+    </e>
+    <e n="GotoTypeDeclaration">
+      <i c="2" l="1736555617627" />
+    </e>
+    <e n="GuiDesigner.CreateComponent">
+      <i c="2" l="1736446196451" />
+    </e>
+    <e n="GuiDesigner.CreateListener">
+      <i c="1" l="1736446226260" />
+    </e>
+    <e n="GuiDesigner.ExpandSelection">
+      <i c="1" l="1736446209165" />
+    </e>
+    <e n="GuiDesigner.FormSource">
+      <i c="1" l="1736446059626" />
+    </e>
+    <e n="GuiDesigner.PreviewForm">
+      <i c="3" l="1736446282180" />
+    </e>
+    <e n="GuiDesigner.SurroundPopup">
+      <i c="1" l="1736446216728" />
+    </e>
+    <e n="HideAllWindows">
+      <i c="7" l="1736539100804" />
+    </e>
+    <e n="ImplementMethods">
+      <i c="2" l="1736548102488" />
+    </e>
+    <e n="JumpToLastChange">
+      <i c="1" l="1736555780999" />
+    </e>
+    <e n="ManageRecentProjects">
+      <i c="3" l="1736447300916" />
+    </e>
+    <e n="MoreRunToolbarActions">
+      <i c="2" l="1736449725351" />
+    </e>
+    <e n="Move">
+      <i c="1" l="1736450892996" />
+    </e>
+    <e n="MoveStatementDown">
+      <i c="7" l="1736548063018" />
+    </e>
+    <e n="MoveStatementUp">
+      <i c="5" l="1736548064389" />
+    </e>
+    <e n="NewClass">
+      <i c="9" l="1737244403857" />
+    </e>
+    <e n="NewDialog">
+      <i c="1" l="1736445887558" />
+    </e>
+    <e n="NewDir">
+      <i c="1" l="1736443436611" />
+    </e>
+    <e n="NewFile">
+      <i c="2" l="1736443542741" />
+    </e>
+    <e n="NewForm">
+      <i c="2" l="1736445895000" />
+    </e>
+    <e n="NewProject">
+      <i c="1" l="1736443312688" />
+    </e>
+    <e n="NextTemplateVariable">
+      <i c="2" l="1736441560837" />
+    </e>
+    <e n="OpenFile">
+      <i c="1" l="1739394893830" />
+    </e>
+    <e n="OptimizeImports">
+      <i c="1" l="1736443470095" />
+    </e>
+    <e n="OverrideMethods">
+      <i c="2" l="1736450370648" />
+    </e>
+    <e n="QuickImplementations">
+      <i c="1" l="1736548098137" />
+    </e>
+    <e n="QuickPreview">
+      <i c="3" l="1736720791687" />
+    </e>
+    <e n="RedesignedRunConfigurationSelector">
+      <i c="2" l="1736722739472" />
+    </e>
+    <e n="RenameElement">
+      <i c="5" l="1736723084627" />
+    </e>
+    <e n="Run">
+      <i c="100" l="1739396297597" />
+    </e>
+    <e n="SaveAll">
+      <i c="2" l="1736560715974" />
+    </e>
+    <e n="SearchEverywhere">
+      <i c="1" l="1736546999302" />
+    </e>
+    <e n="SettingsEntryPoint">
+      <i c="26" l="1739396267658" />
+    </e>
+    <e n="ShowIntentionActions">
+      <i c="1" l="1736723079182" />
+    </e>
+    <e n="ShowProjectStructureSettings">
+      <i c="1" l="1736548111178" />
+    </e>
+    <e n="ShowSettings">
+      <i c="20" l="1739396274129" />
+    </e>
+    <e n="Terminal.EnableNewUi">
+      <i c="6" l="1736441730013" />
+    </e>
+    <e n="ToggleLineBreakpoint">
+      <i c="1" l="1736449836363" />
+    </e>
+    <e n="Tree-selectNext">
+      <i c="7" l="1736720791854" />
+    </e>
+    <e n="Tree-selectPrevious">
+      <i c="8" l="1736720794125" />
+    </e>
+    <e n="WelcomeScreen.CreateNewProject">
+      <i c="5" l="1736720256884" />
+    </e>
+    <e n="WelcomeScreen.OpenProject">
+      <i c="3" l="1739394793352" />
+    </e>
+    <e n="WelcomeScreen.Plugins">
+      <i c="1" l="1736445756914" />
+    </e>
+    <e n="WelcomeScreen.Settings">
+      <i c="2" l="1736439859549" />
+    </e>
+    <e n="com.intellij.application.options.schemes.AbstractSchemesPanel$ShowSchemesActionsListAction">
+      <i c="3" l="1736440385296" />
+    </e>
+    <e n="com.intellij.codeInsight.daemon.NavigateAction">
+      <i c="1" l="1737244883024" />
+    </e>
+    <e n="com.intellij.find.SearchReplaceComponent$CloseAction">
+      <i c="1" l="1736450376041" />
+    </e>
+    <e n="com.intellij.ide.actions.QuickChangeLookAndFeel$1">
+      <i c="1" l="1736538147516" />
+    </e>
+    <e n="com.intellij.ide.actions.QuickChangeLookAndFeel$LafChangeAction">
+      <i c="3" l="1739394883517" />
+    </e>
+    <e n="com.intellij.ide.plugins.PluginManagerConfigurable$2">
+      <i c="1" l="1736447391545" />
+    </e>
+    <e n="com.intellij.ide.plugins.PluginManagerConfigurable$InstalledSearchOptionAction">
+      <i c="2" l="1736447387176" />
+    </e>
+    <e n="com.intellij.ide.plugins.PluginManagerConfigurable$MarketplaceSortByAction">
+      <i c="3" l="1736447372761" />
+    </e>
+    <e n="com.intellij.ide.plugins.newui.EventHandler$1">
+      <i c="4" l="1736447411006" />
+    </e>
+    <e n="com.intellij.ide.plugins.newui.TabbedPaneHeaderComponent$3">
+      <i c="1" l="1736447389635" />
+    </e>
+    <e n="com.intellij.ide.ui.OpenEditorSchemeConfigurableAction">
+      <i c="1" l="1736439414107" />
+    </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="1" l="1736439915044" />
+    </e>
+    <e n="com.intellij.openapi.actionSystem.impl.MoreActionGroup">
+      <i c="2" l="1737246773597" />
+    </e>
+    <e n="com.intellij.openapi.editor.impl.EditorMarkupModelImpl$TrafficLightAction">
+      <i c="9" l="1736715994544" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="10" l="1736554379150" />
+    </e>
+    <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
+      <i c="1" l="1736547002392" />
+    </e>
+    <e n="com.intellij.openapi.ui.DialogWrapper$5">
+      <i c="4" l="1739396315798" />
+    </e>
+    <e n="com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$AnCancelAction">
+      <i c="1" l="1736548399618" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="17" l="1736546359768" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="19" l="1739394887120" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$4">
+      <i c="2" l="1736439857253" />
+    </e>
+    <e n="com.intellij.refactoring.suggested.PerformSuggestedRefactoringKt$createAndShowBalloon$2">
+      <i c="1" l="1736721067940" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$ShowOptionsAction">
+      <i c="12" l="1736539093160" />
+    </e>
+    <e n="com.intellij.ui.NotificationBalloonActionProvider$3">
+      <i c="1" l="1736439908772" />
+    </e>
+    <e n="com.intellij.ui.components.BasicOptionButtonUI$ActionDelegate">
+      <i c="1" l="1736439793701" />
+    </e>
+    <e n="com.intellij.ui.dsl.builder.components.SegmentedButtonAction">
+      <i c="1" l="1736443327658" />
+    </e>
+    <e n="com.intellij.ui.tabs.impl.JBTabsImpl$SelectNextAction">
+      <i c="6" l="1736547779403" />
+    </e>
+    <e n="com.intellij.ui.tabs.impl.JBTabsImpl$SelectPreviousAction">
+      <i c="5" l="1736452167999" />
+    </e>
+    <e n="com.intellij.xdebugger.impl.breakpoints.RemoveBreakpointGutterIconAction">
+      <i c="1" l="1736449840159" />
+    </e>
+  </component>
+</application>

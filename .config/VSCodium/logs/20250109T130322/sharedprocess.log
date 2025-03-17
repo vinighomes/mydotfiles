@@ -1,0 +1,72 @@
+2025-01-09 13:04:18.982 [info] Getting Manifest... sdras.night-owl
+2025-01-09 13:04:20.425 [info] Installing extension: sdras.night-owl {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/darth06/.vscode-oss/extensions/extensions.json","path":"/home/darth06/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.2","date":"2024-12-21T00:45:47.611Z"}}
+2025-01-09 13:04:22.241 [info] Extracted extension to file:///home/darth06/.vscode-oss/extensions/sdras.night-owl-2.1.1-universal: sdras.night-owl
+2025-01-09 13:04:22.243 [info] Renamed to /home/darth06/.vscode-oss/extensions/sdras.night-owl-2.1.1-universal
+2025-01-09 13:04:22.249 [info] Extension installed successfully: sdras.night-owl vscode-userdata:/home/darth06/.vscode-oss/extensions/extensions.json
+2025-01-09 13:04:22.324 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/darth06/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/darth06/.vscode-oss/extensions/extensions.json.vsctmp'
+    at Kv.create (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:44554)
+    at xi (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:44661)
+    at jn.toFileSystemProviderError (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:28652)
+    at jn.stat (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:20509)
+    at async vu.stat (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:103140)
+    at async du.onDidFilesChange (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:80829)
+2025-01-09 13:06:07.713 [info] Getting Manifest... redhat.java
+2025-01-09 13:06:08.624 [info] Installing extension: redhat.java {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/darth06/.vscode-oss/extensions/extensions.json","path":"/home/darth06/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.2","date":"2024-12-21T00:45:47.611Z"}}
+2025-01-09 13:06:28.044 [info] Getting Manifest... github.vscode-pull-request-github
+2025-01-09 13:06:30.062 [info] Installing extension: github.vscode-pull-request-github {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/darth06/.vscode-oss/extensions/extensions.json","path":"/home/darth06/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.2","date":"2024-12-21T00:45:47.611Z"}}
+2025-01-09 13:06:37.398 [info] Extracted extension to file:///home/darth06/.vscode-oss/extensions/github.vscode-pull-request-github-0.102.0-universal: github.vscode-pull-request-github
+2025-01-09 13:06:37.401 [info] Renamed to /home/darth06/.vscode-oss/extensions/github.vscode-pull-request-github-0.102.0-universal
+2025-01-09 13:06:37.412 [info] Extension installed successfully: github.vscode-pull-request-github vscode-userdata:/home/darth06/.vscode-oss/extensions/extensions.json
+2025-01-09 13:06:37.483 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/darth06/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/darth06/.vscode-oss/extensions/extensions.json.vsctmp'
+    at Kv.create (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:44554)
+    at xi (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:44661)
+    at jn.toFileSystemProviderError (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:28652)
+    at jn.stat (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:20509)
+    at async vu.stat (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:103140)
+    at async du.onDidFilesChange (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:80829)
+2025-01-09 13:06:39.938 [info] Getting Manifest... dbaeumer.vscode-eslint
+2025-01-09 13:06:40.316 [info] Installing extension: dbaeumer.vscode-eslint {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/darth06/.vscode-oss/extensions/extensions.json","path":"/home/darth06/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.2","date":"2024-12-21T00:45:47.611Z"}}
+2025-01-09 13:06:41.020 [info] Extracted extension to file:///home/darth06/.vscode-oss/extensions/dbaeumer.vscode-eslint-3.0.10-universal: dbaeumer.vscode-eslint
+2025-01-09 13:06:41.023 [info] Renamed to /home/darth06/.vscode-oss/extensions/dbaeumer.vscode-eslint-3.0.10-universal
+2025-01-09 13:06:41.031 [info] Extension installed successfully: dbaeumer.vscode-eslint vscode-userdata:/home/darth06/.vscode-oss/extensions/extensions.json
+2025-01-09 13:06:41.102 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/darth06/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/darth06/.vscode-oss/extensions/extensions.json.vsctmp'
+    at Kv.create (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:44554)
+    at xi (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:44661)
+    at jn.toFileSystemProviderError (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:28652)
+    at jn.stat (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:20509)
+    at async vu.stat (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:103140)
+    at async du.onDidFilesChange (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:80829)
+2025-01-09 13:06:59.808 [info] Getting Manifest... vscjava.vscode-java-debug
+2025-01-09 13:07:00.204 [info] Installing extension: vscjava.vscode-java-debug {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/darth06/.vscode-oss/extensions/extensions.json","path":"/home/darth06/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.2","date":"2024-12-21T00:45:47.611Z"}}
+2025-01-09 13:07:02.285 [info] Extracted extension to file:///home/darth06/.vscode-oss/extensions/vscjava.vscode-java-debug-0.58.1-universal: vscjava.vscode-java-debug
+2025-01-09 13:07:02.287 [info] Renamed to /home/darth06/.vscode-oss/extensions/vscjava.vscode-java-debug-0.58.1-universal
+2025-01-09 13:07:02.295 [info] Extension installed successfully: vscjava.vscode-java-debug vscode-userdata:/home/darth06/.vscode-oss/extensions/extensions.json
+2025-01-09 13:07:02.366 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/darth06/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/darth06/.vscode-oss/extensions/extensions.json.vsctmp'
+    at Kv.create (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:44554)
+    at xi (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:44661)
+    at jn.toFileSystemProviderError (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:28652)
+    at jn.stat (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:20509)
+    at async vu.stat (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:103140)
+    at async du.onDidFilesChange (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:80829)
+2025-01-09 13:07:13.598 [info] Getting Manifest... pkief.material-icon-theme
+2025-01-09 13:07:13.988 [info] Installing extension: pkief.material-icon-theme {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/darth06/.vscode-oss/extensions/extensions.json","path":"/home/darth06/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.2","date":"2024-12-21T00:45:47.611Z"}}
+2025-01-09 13:07:15.082 [info] Extracted extension to file:///home/darth06/.vscode-oss/extensions/pkief.material-icon-theme-5.17.0-universal: pkief.material-icon-theme
+2025-01-09 13:07:15.102 [info] Renamed to /home/darth06/.vscode-oss/extensions/pkief.material-icon-theme-5.17.0-universal
+2025-01-09 13:07:15.114 [info] Extension installed successfully: pkief.material-icon-theme vscode-userdata:/home/darth06/.vscode-oss/extensions/extensions.json
+2025-01-09 13:07:15.186 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/darth06/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/darth06/.vscode-oss/extensions/extensions.json.vsctmp'
+    at Kv.create (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:44554)
+    at xi (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:44661)
+    at jn.toFileSystemProviderError (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:28652)
+    at jn.stat (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:20509)
+    at async vu.stat (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:103140)
+    at async du.onDidFilesChange (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:80829)
+2025-01-09 13:08:18.388 [info] Extracted extension to file:///home/darth06/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64: redhat.java
+2025-01-09 13:08:18.410 [info] Renamed to /home/darth06/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64
+2025-01-09 13:08:18.423 [info] Extension installed successfully: redhat.java vscode-userdata:/home/darth06/.vscode-oss/extensions/extensions.json
+2025-01-09 13:08:18.489 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/darth06/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/darth06/.vscode-oss/extensions/extensions.json.vsctmp'
+    at Kv.create (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:44554)
+    at xi (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:44661)
+    at jn.toFileSystemProviderError (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:28652)
+    at jn.stat (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:20509)
+    at async vu.stat (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:103140)
+    at async du.onDidFilesChange (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:80829)

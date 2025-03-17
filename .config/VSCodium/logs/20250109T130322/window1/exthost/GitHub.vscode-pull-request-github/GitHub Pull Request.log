@@ -1,0 +1,7 @@
+2025-01-09 13:06:37.656 [warning] /home/darth06/.ssh/config: ENOENT: no such file or directory, open '/home/darth06/.ssh/config'
+2025-01-09 13:06:37.656 [info] Activation> Extension version: 0.102.0
+2025-01-09 13:06:37.656 [info] TemporaryState> Error in initialization: Unable to delete nonexistent file 'vscode-userdata:/home/darth06/.config/VSCodium/User/globalStorage/github.vscode-pull-request-github/temp'
+2025-01-09 13:06:37.666 [info] Looking for git repository
+2025-01-09 13:06:37.666 [info] Found 0 repositories during activation
+2025-01-09 13:06:37.666 [info] Git repository found, initializing review manager and pr tree view.
+2025-01-09 13:06:37.667 [info] Registering git provider

@@ -1,0 +1,430 @@
+!SESSION 2025-01-09 13:09:43.648 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.13
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/run/user/1000/lsp-08551032eccc237f96bb52490832199a.sock
+Command-line arguments:  -data /home/darth06/.config/VSCodium/User/workspaceStorage/71bf4fc8d1f87ce7c4cb402fabf1f793/redhat.java/jdt_ws --pipe=/run/user/1000/lsp-08551032eccc237f96bb52490832199a.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:09:45.883
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:09:46.166
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:09:46.210
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:09:46.212
+!MESSAGE Initializing Java Language Server 1.43.0.202412190401
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:09:46.213
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:09:47.122
+!MESSAGE ProjectRegistryRefreshJob finished 909ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:09:47.142
+!MESSAGE Started org.eclipse.buildship.core 19ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:09:47.207
+!MESSAGE Setting /usr/lib/jvm/java-21-openjdk as 'JavaSE-21' environment (id:1736438987194)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:09:47.212
+!MESSAGE Setting /usr/lib/jvm/java-23-openjdk as 'JavaSE-23' environment (id:1736438987209)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:09:47.213
+!MESSAGE Setting java.home /usr/lib/jvm/java-23-openjdk as default global VM
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:09:47.216
+!MESSAGE Default VM Install changed from  1736438987183-/home/darth06/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64/jre/17.0.13-linux-x86_64 to 1736438987209-/usr/lib/jvm/java-23-openjdk
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:09:47.221
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:09:47.227
+!MESSAGE Installed reference:file:/home/darth06/.vscode-oss/extensions/vscjava.vscode-java-debug-0.58.1-universal/server/com.microsoft.java.debug.plugin-0.53.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:09:47.252
+!MESSAGE Started reference:file:/home/darth06/.vscode-oss/extensions/vscjava.vscode-java-debug-0.58.1-universal/server/com.microsoft.java.debug.plugin-0.53.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:09:47.256
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:09:47.257
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:09:47.257
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:09:47.257
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:09:47.272
+!MESSAGE RepositoryRegistryUpdateJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:09:47.277
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:09:47.335
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:09:47.393
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:09:48.255
+!MESSAGE Try to create an invisible project for the workspace /home/darth06/NetBeansProjects/Aula02
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:09:48.256
+!MESSAGE Creating the Java project Aula02_b03cd99
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:09:48.268
+!MESSAGE Finished creating the Java project Aula02_b03cd99
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:09:48.275
+!MESSAGE Successfully created a workspace invisible project Aula02_b03cd99
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:09:48.293
+!MESSAGE Workspace initialized in 1022ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:09:48.347
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:09:48.769
+!MESSAGE >> Updating classpath for project Aula02_b03cd99
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:09:48.788
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:09:48.788
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:09:48.791
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:09:48.945
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY java-debug 1 0 2025-01-09 13:09:48.987
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:09:49.662
+!MESSAGE begin problem for /Caneta.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:09:49.664
+!MESSAGE 0 problems reported for /Caneta.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:09:49.665
+!MESSAGE Validated 1. Took 69 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:10:59.549
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:10:59.550
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:00.027
+!MESSAGE begin problem for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:00.027
+!MESSAGE 1 problems reported for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:00.027
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:08.229
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:08.460
+!MESSAGE Reconciled 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:08.930
+!MESSAGE begin problem for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:08.930
+!MESSAGE 3 problems reported for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:08.931
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:12.995
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:13.464
+!MESSAGE begin problem for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:13.465
+!MESSAGE 3 problems reported for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:13.465
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:13.737
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:13.781
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:13.845
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:13.979
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:14.119
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:14.592
+!MESSAGE begin problem for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:14.593
+!MESSAGE 3 problems reported for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:14.593
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:16.518
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:16.940
+!MESSAGE begin problem for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:16.940
+!MESSAGE 3 problems reported for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:16.940
+!MESSAGE Validated 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:18.273
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:18.738
+!MESSAGE begin problem for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:18.738
+!MESSAGE 3 problems reported for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:18.739
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:19.004
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:19.426
+!MESSAGE begin problem for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:19.426
+!MESSAGE 3 problems reported for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:19.427
+!MESSAGE Validated 1. Took 23 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:25.806
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:26.269
+!MESSAGE begin problem for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:26.269
+!MESSAGE 3 problems reported for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:26.269
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:26.826
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:27.296
+!MESSAGE begin problem for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:27.296
+!MESSAGE 3 problems reported for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:11:27.296
+!MESSAGE Validated 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:12:11.855
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:12:12.320
+!MESSAGE begin problem for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:12:12.321
+!MESSAGE 2 problems reported for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:12:12.321
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:12:14.389
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:12:14.428
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:12:14.897
+!MESSAGE begin problem for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:12:14.897
+!MESSAGE 3 problems reported for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:12:14.897
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:13:14.900
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:13:15.320
+!MESSAGE begin problem for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:13:15.320
+!MESSAGE 2 problems reported for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:13:15.321
+!MESSAGE Validated 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:13:21.369
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:13:21.561
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:13:21.730
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:13:21.885
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:13:22.073
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:13:22.190
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:13:22.602
+!MESSAGE begin problem for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:13:22.602
+!MESSAGE 2 problems reported for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:13:22.603
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:13:22.733
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:13:22.971
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:13:23.160
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:13:23.575
+!MESSAGE begin problem for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:13:23.575
+!MESSAGE 2 problems reported for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:13:23.575
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:13:27.867
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:13:28.073
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:13:28.531
+!MESSAGE begin problem for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:13:28.531
+!MESSAGE 3 problems reported for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:13:28.532
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:13:28.678
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:13:28.818
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:13:29.279
+!MESSAGE begin problem for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:13:29.279
+!MESSAGE 2 problems reported for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:13:29.280
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:13:32.849
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:13:33.315
+!MESSAGE begin problem for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:13:33.316
+!MESSAGE 2 problems reported for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:13:33.316
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:14:19.912
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:14:20.383
+!MESSAGE begin problem for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:14:20.383
+!MESSAGE 1 problems reported for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:14:20.383
+!MESSAGE Validated 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:14:27.916
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:14:28.341
+!MESSAGE begin problem for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:14:28.342
+!MESSAGE 1 problems reported for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:14:28.342
+!MESSAGE Validated 1. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:14:56.841
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:14:57.319
+!MESSAGE begin problem for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:14:57.319
+!MESSAGE 1 problems reported for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:14:57.320
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:16:22.799
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:16:23.259
+!MESSAGE begin problem for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:16:23.260
+!MESSAGE 1 problems reported for /Aula02.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:16:23.260
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:16:27.740
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:16:27.741
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:16:27.756
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-09 13:16:27.761
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:

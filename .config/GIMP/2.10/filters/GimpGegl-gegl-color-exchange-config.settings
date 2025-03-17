@@ -1,0 +1,25 @@
+# settings
+
+(GimpGegl-gegl-color-exchange-config "2025-02-14 08:15:40"
+    (time 1739531740)
+    (from-color (color-rgba 1 1 1 1))
+    (to-color (color-rgba 0.46221248630887235 0 1 1))
+    (red-threshold 0)
+    (green-threshold 0)
+    (blue-threshold 0))
+(GimpGegl-gegl-color-exchange-config "2025-02-13 21:50:29"
+    (time 1739494229)
+    (from-color (color-rgba 1 1 1 1))
+    (to-color (color-rgba 1 0 0 1))
+    (red-threshold 0)
+    (green-threshold 0)
+    (blue-threshold 0))
+(GimpGegl-gegl-color-exchange-config "2025-02-13 19:29:54"
+    (time 1739485794)
+    (from-color (color-rgba 1 1 1 1))
+    (to-color (color-rgba 0.52921833705428079 0 0.75027382256297925 1))
+    (red-threshold 0)
+    (green-threshold 0)
+    (blue-threshold 0))
+
+# end of settings
